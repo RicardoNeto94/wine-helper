@@ -7,7 +7,7 @@
   <link rel="manifest" href="manifest.json" />
   <link rel="apple-touch-icon" href="assets/icon-192.png" />
   <meta name="theme-color" content="#0b0b0c" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=20250907213529" />
 </head>
 <body>
   <header>
@@ -39,14 +39,17 @@
   </header>
 
   <main class="wrap">
+    <div id="notice" class="alert" style="display:none;"></div>
     <div id="badges" class="meta"></div>
     <div id="grid" class="grid"></div>
     <div class="footer">Install to iPad: Share → Add to Home Screen. Works offline.</div>
   </main>
 
-  <script src="app.js"></script>
+  <script src="app.js?v=20250907213529"></script>
   <script>
-    if ('serviceWorker' in navigator) { navigator.serviceWorker.register('./service-worker.js'); }
+    if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
+      navigator.serviceWorker.register('./service-worker.js');
+    }
   </script>
 </body>
 </html>
