@@ -8,6 +8,21 @@
     "Fortified/Sherry (small, narrow)": "🍷",
     "Standard white (safe default)": "🍷"
   };
+  // Image helpers
+  function slugifyName(name){
+    return String(name||"").toLowerCase()
+      .normalize('NFD').replace(/[\u0300-\u036f]/g,'')      // strip accents
+      .replace(/[^a-z0-9\s-]/g,'')                          // keep alnum/space/hyphen
+      .trim().replace(/\s+/g,'-').replace(/-+/g,'-');
+  }
+  function bottleImageFor(w){
+    if (w.Image) return w.Image; // explicit path in wines.json
+    const slug = slugifyName(w.Name || "");
+    const year = (w.Vintage && String(w.Vintage).match(/\\d{4}/)) ? "-" + String(w.Vintage).match(/\\d{4}/)[0] : "";
+    // Try with vintage first, then without
+    return `${slug}${year}.png`;
+  }
+
 
   const state = { wines: [], menu: [], dishPrice: "", qDishName: "", currentDish: "", lastPrefs: null };
 
@@ -148,15 +163,18 @@
       const safe = JSON.stringify(w).replace(/</g,"&lt;").replace(/>/g,"&gt;");
       return `
         <div class="card">
-          <div class="name" style="font-weight:700">${w.Name}${w.Vintage ? " " + w.Vintage : ""}</div>
-          <div class="meta">
-            <span>${w.Category}</span>
-            <span>${w.Glass} ${glass}</span>
-            <span>${w.Price || ""}</span>
-          </div>
-          <div class="meta">${why}</div>
-          <div class="row">
-            <button class="copy" onclick='copyRec(${safe})'>Copy</button>
+          <div class="thumb"><img loading="lazy" decoding="async" src="${bottleImageFor(w)}" onerror="this.onerror=null;this.src='placeholder-bottle.png';" alt="Bottle"/></div>
+          <div>
+            <div class="name" style="font-weight:700">${w.Name}${w.Vintage ? " " + w.Vintage : ""}</div>
+            <div class="meta">
+              <span>${w.Category}</span>
+              <span>${w.Glass} ${glass}</span>
+              <span>${w.Price || ""}</span>
+            </div>
+            <div class="meta">${why}</div>
+            <div class="row">
+              <button class="copy" onclick='copyRec(${safe})'>Copy</button>
+            </div>
           </div>
         </div>`;
     }).join("");
@@ -193,11 +211,14 @@
 
   async function init() {
     try {
-      const [w, m] = await Promise.all([
+      const [w, m, imgMap] = await Promise.all([
         fetch('./wines.json').then(r => r.json()),
-        fetch('./menu.json').then(r => r.json())
+        fetch('./menu.json').then(r => r.json()),
+        fetch('./images-map.json').then(r => r.json()).catch(() => ({}))
       ]);
-      state.wines = w;
+      state.wines = w.map(o => ({...o}));
+      // Merge image map into wine objects (only if no explicit Image provided)
+      (state.wines||[]).forEach(wi => { if (!wi.Image && imgMap[wi.Name]) wi.Image = imgMap[wi.Name]; });
       state.menu = Array.isArray(m) ? m : (m.items || m.menu || []);
       document.getElementById("qDishName").addEventListener("input", e => { state.qDishName = e.target.value; renderDishList(); });
       document.getElementById("dishPrice").addEventListener("change", e => { state.dishPrice = e.target.value; });
