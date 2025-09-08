@@ -3,43 +3,23 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-  <title>Shang Shi • FOH Wine Pairing</title>
+  <title>Shang Shi • FOH Pairing</title>
   <link rel="manifest" href="manifest.json" />
   <link rel="apple-touch-icon" href="icon-192.png" />
-  <meta name="theme-color" content="#0b0b0c" />
-  <link rel="stylesheet" href="styles.css?v=20250908162752" />
+  <meta name="theme-color" content="#0a0c12" />
+  <link rel="stylesheet" href="styles.css?v=20250908164035" />
 </head>
 <body>
   <header>
     <div class="wrap">
-      <h1>Shang Shi • FOH Wine Pairing</h1>
-      <div class="tabs">
-        <div id="tabWine" class="tab active">Wine</div>
-        <div id="tabDish" class="tab">Dish</div>
+      <div class="brand">
+        <div class="logo"></div>
+        <div>
+          <h1>Shang Shi • FOH Pairing</h1>
+          <div class="sub">Select a dish → answer quick prefs → get best wine matches</div>
+        </div>
       </div>
-      <div id="controlsWine" class="controls">
-        <input id="qWine" placeholder="Search wine (e.g., Cristal, Chablis, Pétrus)" />
-        <input id="qDish" placeholder="Search dish (quick filter e.g., Peking Duck)" />
-        <select id="qCategory">
-          <option value="">All categories</option>
-          <option>Sparkling</option>
-          <option>White</option>
-          <option>Rosé</option>
-          <option>Light Red</option>
-          <option>Red</option>
-          <option>Dessert/Sweet</option>
-          <option>Fortified</option>
-        </select>
-        <select id="qPrice">
-          <option value="">All prices</option>
-          <option value="0-99">&lt; €100</option>
-          <option value="100-299">€100–€299</option>
-          <option value="300-699">€300–€699</option>
-          <option value="700-1499">€700–€1,499</option>
-          <option value="1500-99999">€1,500+</option>
-        </select>
-      </div>
-      <div id="controlsDish" class="controls" style="display:none">
+      <div class="controls">
         <input id="qDishName" placeholder="Search dish (from menu.json)" />
         <select id="dishPrice">
           <option value="">All prices</option>
@@ -50,21 +30,30 @@
           <option value="1500-99999">€1,500+</option>
         </select>
       </div>
+      <div class="badges" id="badges"></div>
     </div>
   </header>
 
   <main class="wrap">
-    <div id="notice" class="alert" style="display:none;"></div>
-    <div id="badges" class="meta"></div>
-    <div id="dishList" class="list" style="display:none;"></div>
-    <div id="grid" class="grid"></div>
-    <div class="footer">Install to iPad: Share → Add to Home Screen. Works offline.</div>
+    <div id="notice" class="notice" style="display:none;"></div>
+    <div id="dishList" class="list"></div>
+
+    <section id="results" class="results">
+      <div class="head">
+        <div class="title" id="resTitle">Matches</div>
+        <div>
+          <button id="btnChange" class="link copy">Change preferences</button>
+          <button id="btnBack" class="link copy">Back to dishes</button>
+        </div>
+      </div>
+      <div id="grid"></div>
+    </section>
   </main>
 
-  <!-- Modal -->
+  <!-- Questionnaire modal -->
   <div id="modal" class="modal-backdrop">
     <div class="modal">
-      <h2 id="modalTitle">Choose guest preferences</h2>
+      <h2 id="modalTitle">Guest preferences</h2>
       <div class="rows">
         <div class="row">
           <label>Wine style</label>
@@ -108,7 +97,7 @@
           </select>
         </div>
         <div class="row">
-          <label>Oak preference</label>
+          <label>Oak</label>
           <select id="mOak">
             <option value="">Any</option>
             <option>Unoaked</option>
@@ -126,13 +115,13 @@
         </div>
       </div>
       <div class="actions">
-        <button id="mCancel" class="btn link">Cancel</button>
+        <button id="mCancel" class="link">Cancel</button>
         <button id="mApply" class="btn">Show Matches</button>
       </div>
     </div>
   </div>
 
-  <script src="app.js?v=20250908162752"></script>
+  <script src="app.js?v=20250908164035"></script>
   <script>if ('serviceWorker' in navigator && location.protocol.startsWith('http')) { navigator.serviceWorker.register('./service-worker.js'); }</script>
 </body>
 </html>

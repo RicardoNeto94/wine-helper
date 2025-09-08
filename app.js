@@ -9,11 +9,7 @@
     "Standard white (safe default)": "🍷"
   };
 
-  const state = {
-    wines: [], menu: [], tab: "wine",
-    qWine: "", qDish: "", qCategory: "", qPrice: "",
-    qDishName: "", dishPrice: "", currentDish: ""
-  };
+  const state = { wines: [], menu: [], dishPrice: "", qDishName: "", currentDish: "", lastPrefs: null };
 
   const RULES = [
     { k: ["peking duck","duck"], cats:["Light Red","Red","White","Sparkling"], why:"Fatty, sweet-savory duck loves Pinot/older Bordeaux; oaked Chardonnay or Champagne cleanses." },
@@ -55,14 +51,10 @@
     return { cats:["Sparkling","White","Light Red","Red"], why:"General pairing options; refine by preparation/sauce." };
   }
 
-  // Heuristics
   function guessBody(w) {
     const n = (w.Name||"").toLowerCase();
     if (w.Category === "Light Red") return "Light";
-    if (w.Category === "Red") {
-      if (/(barolo|barbaresco|bordeaux|cabernet|syrah|shiraz|malbec|priorat)/.test(n)) return "Full"; 
-      return "Medium";
-    }
+    if (w.Category === "Red") { if (/(barolo|barbaresco|bordeaux|cabernet|syrah|shiraz|malbec|priorat)/.test(n)) return "Full"; return "Medium"; }
     if (w.Category === "White") {
       if (/(meursault|montrachet|corton|batard|chardonnay|viognier)/.test(n)) return "Full";
       if (/(sauvignon|riesling|albarino|albariñ|grüner|gruner|muscadet|picpoul|vermentino)/.test(n)) return "Light";
@@ -106,60 +98,15 @@
     return parseFloat(pa||0) - parseFloat(pb||0);
   }
 
-  function renderWineGrid(list, whyText) {
-    const grid = document.getElementById("grid");
-    const badges = document.getElementById("badges");
-    badges.innerHTML = whyText ? `<span class="badge">Reason: ${whyText}</span><span class="badge">Results: ${list.length}</span>` : `<span class="badge">Results: ${list.length}</span>`;
-    grid.innerHTML = list.slice(0, 300).map(w => {
-      const glass = GLASS_ICON[w.Glass] || "🍷";
-      const safe = JSON.stringify(w).replace(/</g,"&lt;").replace(/>/g,"&gt;");
-      const why = (w._why || []).join(" • ");
-      return `
-        <div class="card">
-          <div class="title">${w.Name}${w.Vintage ? " " + w.Vintage : ""}</div>
-          <div class="meta">
-            <span class="badge">${w.Category}</span>
-            <span class="badge">${w.Glass} <span class="glass">${glass}</span></span>
-          </div>
-          <div class="row">
-            <div class="price">${w.Price || ""}</div>
-            <button class="btn" onclick='copyRec(${safe})'>Copy</button>
-          </div>
-          <div class="pair">${why ? why : (w["Suggested Pairings"] || "")}</div>
-        </div>`;
-    }).join("");
-  }
-
-  function showWineTab() {
-    document.getElementById("controlsWine").style.display = "";
-    document.getElementById("controlsDish").style.display = "none";
-    document.getElementById("dishList").style.display = "none";
-    document.getElementById("tabWine").classList.add("active");
-    document.getElementById("tabDish").classList.remove("active");
-    renderWine();
-  }
-  function showDishTab() {
-    document.getElementById("controlsWine").style.display = "none";
-    document.getElementById("controlsDish").style.display = "";
-    document.getElementById("dishList").style.display = "grid";
-    document.getElementById("tabDish").classList.add("active");
-    document.getElementById("tabWine").classList.remove("active");
-    renderDishList();
-  }
-
-  function renderWine() {
-    let list = state.wines
-      .filter(w => state.qWine ? (w.Name + " " + w.Vintage).toLowerCase().includes(state.qWine.toLowerCase()) : true)
-      .filter(w => state.qDish ? (w["Suggested Pairings"]||"").toLowerCase().includes(state.qDish.toLowerCase()) : true)
-      .filter(w => state.qCategory ? w.Category === state.qCategory : true)
-      .filter(w => inPriceBand(w, state.qPrice));
-    renderWineGrid(list, "");
+  function showNotice(msg) {
+    const n = document.getElementById('notice');
+    n.textContent = msg; n.style.display = 'block';
   }
 
   function renderDishList() {
     const cont = document.getElementById("dishList");
     const q = (state.qDishName||"").toLowerCase();
-    const dishes = state.menu.map(d => ({name: d.name || d.title || d.dish || d.Name || "", id: d.id || d.slug || (d.name||"").toLowerCase().replace(/\s+/g,'_'), cat: d.category || d.section || ""}))
+    const dishes = (state.menu||[]).map(d => ({name: d.name || d.title || d.dish || d.Name || "", id: d.id || d.slug || (d.name||"").toLowerCase().replace(/\s+/g,'_'), cat: d.category || d.section || ""}))
       .filter(d => d.name).filter(d => !q || d.name.toLowerCase().includes(q));
     cont.innerHTML = dishes.map(d => `<div class="item" data-id="${d.id}"><div class="name">${d.name}</div><div class="tags">${d.cat||""}</div></div>`).join("");
     Array.from(cont.querySelectorAll(".item")).forEach(el => {
@@ -168,13 +115,39 @@
     document.getElementById("badges").innerHTML = `<span class="badge">Dishes: ${dishes.length}</span>`;
   }
 
-  // Modal control
+  // Modal
   function openModal(dishName) {
     state.currentDish = dishName;
-    document.getElementById("modalTitle").textContent = `Preferences for: ${dishName}`;
+    document.getElementById("modalTitle").textContent = `Guest preferences for: ${dishName}`;
     document.getElementById("modal").style.display = "flex";
   }
   function closeModal(){ document.getElementById("modal").style.display = "none"; }
+
+  function renderResults(list, whyText) {
+    const res = document.getElementById("results");
+    const grid = document.getElementById("grid");
+    document.getElementById("resTitle").textContent = `${state.currentDish} — Matches`;
+    res.style.display = "block";
+    grid.innerHTML = list.slice(0, 24).map(w => {
+      const glass = GLASS_ICON[w.Glass] || "🍷";
+      const why = (w._why || []).join(" • ");
+      const safe = JSON.stringify(w).replace(/</g,"&lt;").replace(/>/g,"&gt;");
+      return `
+        <div class="card">
+          <div class="name">${w.Name}${w.Vintage ? " " + w.Vintage : ""}</div>
+          <div class="meta">
+            <span>${w.Category}</span>
+            <span>${w.Glass} ${glass}</span>
+            <span>${w.Price || ""}</span>
+          </div>
+          <div class="meta">${why ? why : (whyText || "")}</div>
+          <div class="row">
+            <button class="copy" onclick='copyRec(${safe})'>Copy</button>
+          </div>
+        </div>`;
+    }).join("");
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  }
 
   function applyQuiz() {
     const prefs = {
@@ -185,27 +158,20 @@
       oak: val("#mOak"),
       bubbles: val("#mBubbles")
     };
+    state.lastPrefs = prefs;
     const rule = dishRule(state.currentDish);
     let list = state.wines.slice().map(w => {
       const {score, reasons} = scoreWine(w, rule.cats, prefs);
       return Object.assign({}, w, {_score: score, _why: reasons});
-    }).filter(w => w._score > 10);
-
+    }).filter(w => (!state.dishPrice || inPriceBand(w, state.dishPrice)) && w._score > 10);
     list.sort(byScoreDesc);
-    const top = list.slice(0, 30);
+    const top = list.slice(0, 40); // buffer then price-sort
     top.sort(byPriceAsc);
-    renderWineGrid(top, rule.why);
+    renderResults(top, rule.why);
     closeModal();
-    window.scrollTo({top: 0, behavior: 'smooth'});
   }
 
   function val(sel){ const el = document.querySelector(sel); return el ? el.value : ""; }
-
-  function showNotice(msg) {
-    const n = document.getElementById('notice');
-    n.textContent = msg;
-    n.style.display = 'block';
-  }
 
   async function init() {
     try {
@@ -215,29 +181,23 @@
       ]);
       state.wines = w;
       state.menu = Array.isArray(m) ? m : (m.items || m.menu || []);
-      document.getElementById("tabWine").onclick = showWineTab;
-      document.getElementById("tabDish").onclick = showDishTab;
-      document.getElementById("qWine").addEventListener("input", e => { state.qWine = e.target.value; renderWine(); });
-      document.getElementById("qDish").addEventListener("input", e => { state.qDish = e.target.value; renderWine(); });
-      document.getElementById("qCategory").addEventListener("change", e => { state.qCategory = e.target.value; renderWine(); });
-      document.getElementById("qPrice").addEventListener("change", e => { state.qPrice = e.target.value; renderWine(); });
       document.getElementById("qDishName").addEventListener("input", e => { state.qDishName = e.target.value; renderDishList(); });
       document.getElementById("dishPrice").addEventListener("change", e => { state.dishPrice = e.target.value; });
-
       document.getElementById("mCancel").onclick = closeModal;
       document.getElementById("mApply").onclick = applyQuiz;
-
-      renderWine();
+      document.getElementById("btnBack").onclick = () => { document.getElementById("results").style.display = "none"; };
+      document.getElementById("btnChange").onclick = () => { openModal(state.currentDish||"Dish"); };
+      renderDishList();
     } catch (e) {
       console.error(e);
-      showNotice("Failed to load wines/menu. Check that wines.json and menu.json are present at the root.");
+      showNotice("Failed to load data. Ensure wines.json and menu.json are in the root.");
     }
   }
 
   window.copyRec = function(w) {
     const line = `${w.Name}${w.Vintage ? " " + w.Vintage : ""} • ${w.Price || ""} • ${w.Category} • ${w.Glass}`;
     navigator.clipboard.writeText(line);
-    alert("Copied:\n" + line);
+    alert("Copied:\\n" + line);
   };
 
   init();

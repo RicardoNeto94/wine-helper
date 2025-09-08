@@ -1,10 +1,10 @@
 {
-  "name": "Shang Shi • FOH Wine Pairing (Dish + Quiz)",
-  "short_name": "Wine Pairing",
+  "name": "Shang Shi • FOH Pairing (Clean)",
+  "short_name": "FOH Pairing",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#0b0b0c",
-  "theme_color": "#0b0b0c",
+  "background_color": "#0a0c12",
+  "theme_color": "#0a0c12",
   "icons": [
     {
       "src": "icon-192.png",
