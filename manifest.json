@@ -1,10 +1,10 @@
 {
-  "name": "Shang Shi • FOH Pairing (Clean)",
+  "name": "Shang Shi • FOH Pairing (Light)",
   "short_name": "FOH Pairing",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#0a0c12",
-  "theme_color": "#0a0c12",
+  "background_color": "#f7f7fb",
+  "theme_color": "#f7f7fb",
   "icons": [
     {
       "src": "icon-192.png",

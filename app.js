@@ -98,11 +98,6 @@
     return parseFloat(pa||0) - parseFloat(pb||0);
   }
 
-  function showNotice(msg) {
-    const n = document.getElementById('notice');
-    n.textContent = msg; n.style.display = 'block';
-  }
-
   function renderDishList() {
     const cont = document.getElementById("dishList");
     const q = (state.qDishName||"").toLowerCase();
@@ -115,38 +110,45 @@
     document.getElementById("badges").innerHTML = `<span class="badge">Dishes: ${dishes.length}</span>`;
   }
 
-  // Modal
+  // Modal helpers
   function openModal(dishName) {
     state.currentDish = dishName;
-    document.getElementById("modalTitle").textContent = `Guest preferences for: ${dishName}`;
+    document.getElementById("modalTitle").textContent = `Preferences for: ${dishName}`;
+    document.getElementById("modalSubtitle").style.display = "";
+    document.getElementById("stepPrefs").style.display = "";
+    document.getElementById("stepResults").style.display = "none";
+    document.getElementById("mBack").style.display = "none";
+    document.getElementById("mApply").style.display = "";
+    document.body.classList.add("blur-bg");
     document.getElementById("modal").style.display = "flex";
   }
-  function closeModal(){ document.getElementById("modal").style.display = "none"; }
+  function closeModal(){
+    document.getElementById("modal").style.display = "none";
+    document.body.classList.remove("blur-bg");
+  }
 
   function renderResults(list, whyText) {
-    const res = document.getElementById("results");
-    const grid = document.getElementById("grid");
-    document.getElementById("resTitle").textContent = `${state.currentDish} — Matches`;
-    res.style.display = "block";
-    grid.innerHTML = list.slice(0, 24).map(w => {
+    const resWhy = document.getElementById("resWhy");
+    const resList = document.getElementById("resList");
+    resWhy.textContent = whyText || "";
+    resList.innerHTML = list.slice(0, 24).map(w => {
       const glass = GLASS_ICON[w.Glass] || "🍷";
       const why = (w._why || []).join(" • ");
       const safe = JSON.stringify(w).replace(/</g,"&lt;").replace(/>/g,"&gt;");
       return `
         <div class="card">
-          <div class="name">${w.Name}${w.Vintage ? " " + w.Vintage : ""}</div>
+          <div class="name" style="font-weight:700">${w.Name}${w.Vintage ? " " + w.Vintage : ""}</div>
           <div class="meta">
             <span>${w.Category}</span>
             <span>${w.Glass} ${glass}</span>
             <span>${w.Price || ""}</span>
           </div>
-          <div class="meta">${why ? why : (whyText || "")}</div>
+          <div class="meta">${why}</div>
           <div class="row">
             <button class="copy" onclick='copyRec(${safe})'>Copy</button>
           </div>
         </div>`;
     }).join("");
-    window.scrollTo({top: 0, behavior: 'smooth'});
   }
 
   function applyQuiz() {
@@ -165,10 +167,15 @@
       return Object.assign({}, w, {_score: score, _why: reasons});
     }).filter(w => (!state.dishPrice || inPriceBand(w, state.dishPrice)) && w._score > 10);
     list.sort(byScoreDesc);
-    const top = list.slice(0, 40); // buffer then price-sort
+    const top = list.slice(0, 40);
     top.sort(byPriceAsc);
+    // Switch modal to results step; keep background blurred
+    document.getElementById("modalSubtitle").style.display = "none";
+    document.getElementById("stepPrefs").style.display = "none";
+    document.getElementById("stepResults").style.display = "";
+    document.getElementById("mBack").style.display = "";
+    document.getElementById("mApply").style.display = "none";
     renderResults(top, rule.why);
-    closeModal();
   }
 
   function val(sel){ const el = document.querySelector(sel); return el ? el.value : ""; }
@@ -185,12 +192,20 @@
       document.getElementById("dishPrice").addEventListener("change", e => { state.dishPrice = e.target.value; });
       document.getElementById("mCancel").onclick = closeModal;
       document.getElementById("mApply").onclick = applyQuiz;
-      document.getElementById("btnBack").onclick = () => { document.getElementById("results").style.display = "none"; };
-      document.getElementById("btnChange").onclick = () => { openModal(state.currentDish||"Dish"); };
+      document.getElementById("mBack").onclick = () => {
+        // back to preferences, still blurred and modal open
+        document.getElementById("modalSubtitle").style.display = "";
+        document.getElementById("stepPrefs").style.display = "";
+        document.getElementById("stepResults").style.display = "none";
+        document.getElementById("mBack").style.display = "none";
+        document.getElementById("mApply").style.display = "";
+      };
       renderDishList();
     } catch (e) {
       console.error(e);
-      showNotice("Failed to load data. Ensure wines.json and menu.json are in the root.");
+      const n = document.getElementById('notice');
+      n.textContent = "Failed to load data. Ensure wines.json and menu.json are in the root.";
+      n.style.display = 'block';
     }
   }
 

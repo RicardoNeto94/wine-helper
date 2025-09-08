@@ -6,8 +6,8 @@
   <title>Shang Shi • FOH Pairing</title>
   <link rel="manifest" href="manifest.json" />
   <link rel="apple-touch-icon" href="icon-192.png" />
-  <meta name="theme-color" content="#0a0c12" />
-  <link rel="stylesheet" href="styles.css?v=20250908164035" />
+  <meta name="theme-color" content="#f7f7fb" />
+  <link rel="stylesheet" href="styles.css?v=20250908165206" />
 </head>
 <body>
   <header>
@@ -16,7 +16,7 @@
         <div class="logo"></div>
         <div>
           <h1>Shang Shi • FOH Pairing</h1>
-          <div class="sub">Select a dish → answer quick prefs → get best wine matches</div>
+          <div class="sub">Select a dish → answer quick prefs → glass window shows the best wines</div>
         </div>
       </div>
       <div class="controls">
@@ -37,24 +37,14 @@
   <main class="wrap">
     <div id="notice" class="notice" style="display:none;"></div>
     <div id="dishList" class="list"></div>
-
-    <section id="results" class="results">
-      <div class="head">
-        <div class="title" id="resTitle">Matches</div>
-        <div>
-          <button id="btnChange" class="link copy">Change preferences</button>
-          <button id="btnBack" class="link copy">Back to dishes</button>
-        </div>
-      </div>
-      <div id="grid"></div>
-    </section>
   </main>
 
-  <!-- Questionnaire modal -->
+  <!-- Glass modal (step 1: questionnaire; step 2: results) -->
   <div id="modal" class="modal-backdrop">
     <div class="modal">
       <h2 id="modalTitle">Guest preferences</h2>
-      <div class="rows">
+      <div id="modalSubtitle" class="subtitle">Answer a few questions and we’ll shortlist the best bottles.</div>
+      <div id="stepPrefs" class="rows">
         <div class="row">
           <label>Wine style</label>
           <select id="mStyle">
@@ -114,14 +104,21 @@
           </select>
         </div>
       </div>
+
+      <div id="stepResults" style="display:none">
+        <div class="subtitle" id="resWhy"></div>
+        <div id="resList" class="rescards"></div>
+      </div>
+
       <div class="actions">
-        <button id="mCancel" class="link">Cancel</button>
+        <button id="mBack" class="link" style="display:none">Back</button>
+        <button id="mCancel" class="link">Close</button>
         <button id="mApply" class="btn">Show Matches</button>
       </div>
     </div>
   </div>
 
-  <script src="app.js?v=20250908164035"></script>
+  <script src="app.js?v=20250908165206"></script>
   <script>if ('serviceWorker' in navigator && location.protocol.startsWith('http')) { navigator.serviceWorker.register('./service-worker.js'); }</script>
 </body>
 </html>
