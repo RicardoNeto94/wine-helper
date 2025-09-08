@@ -8,6 +8,70 @@
     "Fortified/Sherry (small, narrow)": "🍷",
     "Standard white (safe default)": "🍷"
   };
+  // ===== Price helpers (robust) =====
+  function extractNumber(s){
+    if (s == null) return null;
+    const raw = String(s).replace(/[, ]+/g,'').trim();
+    const m = raw.match(/(\d+(\.\d+)?)/);
+    if (!m) return null;
+    return parseFloat(m[1]);
+  }
+  function detectCurrency(s){
+    if (!s) return "";
+    const t = String(s).toUpperCase();
+    if (t.includes("EUR") || t.includes("€")) return "EUR";
+    if (t.includes("GBP") || t.includes("£")) return "GBP";
+    if (t.includes("USD") || t.includes("$")) return "USD";
+    if (t.includes("AED")) return "AED";
+    if (t.includes("HKD") || t.includes("HK$")) return "HKD";
+    if (t.includes("INR") || t.includes("₹")) return "INR";
+    if (t.includes("SGD")) return "SGD";
+    if (t.includes("JPY") || t.includes("¥")) return "JPY";
+    return "";
+  }
+  // NOTE: No live FX; we normalize roughly so bands behave. Adjust factors if needed.
+  const FX = { EUR:1, GBP:1.16, USD:0.93, AED:0.25, HKD:0.12, INR:0.011, SGD:0.68, JPY:0.006, "":1 };
+  function normalizedPrice(w){
+    const n = extractNumber(w.Price);
+    if (n == null) return null;
+    const cur = detectCurrency(w.Price);
+    const fx = FX[cur] ?? 1;
+    return n * fx;
+  }
+  // Compute dynamic bands from dataset (quartiles)
+  function computeBands(arr){
+    const vals = arr.map(normalizedPrice).filter(v => v != null && isFinite(v)).sort((a,b)=>a-b);
+    if (vals.length === 0) return {value:[0,Infinity], mid:[0,Infinity], premium:[0,Infinity], icon:[0,Infinity], stats:null};
+    const q = p => vals[Math.max(0, Math.min(vals.length-1, Math.floor(p*(vals.length-1))))];
+    const Q1 = q(0.25), Q2 = q(0.5), Q3 = q(0.75), P95 = q(0.95);
+    return {
+      value: [0, Q1],
+      mid: [Q1, Q2],
+      premium: [Q2, Q3],
+      icon: [Q3, Infinity],
+      stats: {Q1, Q2, Q3, P95, min: vals[0], max: vals[vals.length-1], count: vals.length}
+    };
+  }
+  function inBandNorm(w, bandKey, bands){
+    if (!bandKey) return true;
+    const v = normalizedPrice(w);
+    if (v == null) return false;
+    const [lo, hi] = bands[bandKey] || [0,Infinity];
+    return v >= lo && v <= hi;
+  }
+  function fmt€(x){ if (x==null||!isFinite(x)) return '–'; return '€'+Math.round(x).toLocaleString(); }
+  function updateBadges(){
+    const b = document.getElementById('badges'); if (!b) return;
+    const stats = state.bands && state.bands.stats;
+    const priceBadge = stats ? `<span class="badge">Price bands (norm): Value ≤ ${fmt€(stats.Q1)}, Mid ≤ ${fmt€(stats.Q2)}, Premium ≤ ${fmt€(stats.Q3)}, Icon ${fmt€(stats.Q3)}+</span>` : '';
+    const filters = [
+      state.dishPrice ? `Dish filter: ${state.dishPrice}` : '',
+      state.lastPrefs && state.lastPrefs.budget ? `Guest budget: ${state.lastPrefs.budget}` : ''
+    ].filter(Boolean).map(t => `<span class="badge">${t}</span>`).join('');
+    b.innerHTML = [priceBadge, filters].filter(Boolean).join(' ');
+  }
+
+
   // Image helpers
   function slugifyName(name){
     return String(name||"").toLowerCase()
@@ -180,7 +244,7 @@
     }).join("");
   }
 
-  function applyQuiz() {
+  function applyQuiz(){
     const prefs = {
       style: val("#mStyle"),
       budget: val("#mBudget"),
@@ -191,20 +255,43 @@
     };
     state.lastPrefs = prefs;
     const rule = dishRule(state.currentDish);
+    const bands = state.bands || computeBands(state.wines);
+
     let list = state.wines.slice().map(w => {
       const {score, reasons} = scoreWine(w, rule.cats, prefs);
       return Object.assign({}, w, {_score: score, _why: reasons});
-    }).filter(w => (!state.dishPrice || inPriceBand(w, state.dishPrice)) && w._score > 10);
-    list.sort(byScoreDesc);
-    const top = list.slice(0, 40);
-    top.sort(byPriceAsc);
-    // Switch modal to results step
+    });
+
+    // HARD filters: dishPrice (header) and guest budget (modal)
+    const hardFilter = (w) => {
+      const a = !state.dishPrice || inBandNorm(w, state.dishPrice, bands);
+      const b = !prefs.budget || inBandNorm(w, prefs.budget, bands);
+      return a && b;
+    };
+    let filtered = list.filter(hardFilter);
+
+    // If too few, relax guest budget first, then dishPrice
+    if (filtered.length < 8 && prefs.budget) {
+      filtered = list.filter(w => !state.dishPrice || inBandNorm(w, state.dishPrice, bands));
+    }
+    if (filtered.length < 8 && state.dishPrice) {
+      filtered = list.slice(); // drop all price constraints
+    }
+
+    // Keep only reasonably relevant wines
+    filtered = filtered.filter(w => w._score > 10);
+
+    // Sort: by score desc, then by normalized price asc
+    filtered.sort((a,b)=> b._score - a._score || (normalizedPrice(a)??1e12) - (normalizedPrice(b)??1e12));
+
+    const top = filtered.slice(0, 40);
+    renderResults(top, rule.why);
     document.getElementById("modalSubtitle").style.display = "none";
     document.getElementById("stepPrefs").style.display = "none";
     document.getElementById("stepResults").style.display = "";
     document.getElementById("mBack").style.display = "";
     document.getElementById("mApply").style.display = "none";
-    renderResults(top, rule.why);
+    updateBadges();
   }
 
   function val(sel){ const el = document.querySelector(sel); return el ? el.value : ""; }
@@ -217,11 +304,12 @@
         fetch('./images-map.json').then(r => r.json()).catch(() => ({}))
       ]);
       state.wines = w.map(o => ({...o}));
-      // Merge image map into wine objects (only if no explicit Image provided)
       (state.wines||[]).forEach(wi => { if (!wi.Image && imgMap[wi.Name]) wi.Image = imgMap[wi.Name]; });
+      state.bands = computeBands(state.wines);
+      updateBadges();
       state.menu = Array.isArray(m) ? m : (m.items || m.menu || []);
       document.getElementById("qDishName").addEventListener("input", e => { state.qDishName = e.target.value; renderDishList(); });
-      document.getElementById("dishPrice").addEventListener("change", e => { state.dishPrice = e.target.value; });
+      document.getElementById("dishPrice").addEventListener("change", e => { state.dishPrice = e.target.value; updateBadges(); });
       document.getElementById("mCancel").onclick = closeModal;
       document.getElementById("mApply").onclick = applyQuiz;
       document.getElementById("mBack").onclick = () => {
