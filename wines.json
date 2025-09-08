@@ -1,811 +1,11 @@
 [
   {
-    "Name": "Alexandre Bonnet Blanc de Noirs Extra Brut",
-    "Vintage": "",
-    "Price": "€ 75.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Alexandre Bonnet Les Contrées Rosé Extra Brut",
-    "Vintage": 2019.0,
-    "Price": "€ 135.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Bernard Robert Le Treizot Grande Réserve Blanc de Blancs",
-    "Vintage": 2016.0,
-    "Price": "€ 90.00 ",
-    "Category": "White",
-    "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
-  },
-  {
-    "Name": "Billecart-Salmon Cuvée Elisabeth Salmon Rosé Brut",
-    "Vintage": 2012.0,
-    "Price": "€ 540.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Billecart-Salmon Cuvée Nicolas Francois Brut",
-    "Vintage": 2008.0,
-    "Price": "€ 245.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Billecart-Salmon Le Clos Saint-Hilaire Brut",
-    "Vintage": 1999.0,
-    "Price": "€ 685.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Bollinger La Grande Année Brut",
-    "Vintage": 2015.0,
-    "Price": "€ 255.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Bollinger La Grande Année Rosé Brut",
-    "Vintage": 2015.0,
-    "Price": "€ 325.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Bonnet-Ponson Cuvée Perpétuelle Non Dosé",
-    "Vintage": "",
-    "Price": "€ 70.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Charles Heidsieck Blanc de Blancs Brut",
-    "Vintage": "",
-    "Price": "€ 115.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Charles Heidsieck Blanc des Millénaires Blanc de Blancs Brut",
-    "Vintage": 2014.0,
-    "Price": "€ 270.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Charles Heidsieck Rosé Réserve Brut",
-    "Vintage": "",
-    "Price": "€ 115.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Charles Heidsieck Collection Crayeres Brut Double Magnum (300cl)",
-    "Vintage": 1989.0,
-    "Price": "€ 1,100.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Charles Heidsieck Millésime Brut",
-    "Vintage": 2018.0,
-    "Price": "€ 160.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Charles Heidsieck Champagne Charlie Brut",
-    "Vintage": 1981.0,
-    "Price": "€ 775.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Charles Heidsieck Réserve Brut",
-    "Vintage": "",
-    "Price": "€ 95.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Chavost Blanc de Meunier Brut Nature",
-    "Vintage": "",
-    "Price": "€ 95.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Chavost Eurêka! Brut Nature",
-    "Vintage": "",
-    "Price": "€ 165.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Chavost Rosé de Saignée Brut Nature",
-    "Vintage": "",
-    "Price": "€ 120.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Dom Pérignon Brut",
-    "Vintage": 2015.0,
-    "Price": "€ 310.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Dom Pérignon Brut Magnum (150cl)",
-    "Vintage": 2012.0,
-    "Price": "€ 760.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Dom Pérignon Rosé Brut",
-    "Vintage": 2009.0,
-    "Price": "€ 485.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Dom Pérignon Plénitude P2 Brut",
-    "Vintage": 2004.0,
-    "Price": "€ 825.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Egly-Ouriet Tradition Grand Cru Brut",
-    "Vintage": "",
-    "Price": "€ 150.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Huré Frères L'Inattendue Blanc de Blancs Extra Brut",
-    "Vintage": 2019.0,
-    "Price": "€ 130.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "J.L.Vergnon Conversation Blanc de Blancs Brut",
-    "Vintage": "",
-    "Price": "€ 90.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Jacques Lassaigne Cuvée Clos Sainte-Sophie Blanc de Blancs Brut Nature",
-    "Vintage": 2015.0,
-    "Price": "€ 220.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Jacques Lassaigne Les Vignes de Montgueux Blanc de Blancs Extra Brut",
-    "Vintage": "",
-    "Price": "€ 95.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Jacques Lassaigne Millésime Blanc de Blancs Brut Nature",
-    "Vintage": 2013.0,
-    "Price": "€ 165.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Jacques Selosse Lieux-dits Le Bout du Clos Ambonnay Grand Cru Blanc de Noirs Extra Brut",
-    "Vintage": "",
-    "Price": "€ 915.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Jacques Selosse Millésimé Blanc de Blancs Extra Brut",
-    "Vintage": 2008.0,
-    "Price": "€ 7,685.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Jacquesson Avize - Champ Caïn Blanc de Blancs Extra Brut",
-    "Vintage": 2013.0,
-    "Price": "€ 260.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Jacquesson Cuvée Nr. 746 Extra Brut",
-    "Vintage": "",
-    "Price": "€ 120.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Jacquesson Cuvée Nr. 741 Dégorgement Tardif Extra Brut",
-    "Vintage": "",
-    "Price": "€ 175.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Jean Josselin Aux Origines Blanc de Noirs Extra Brut",
-    "Vintage": 2018.0,
-    "Price": "€ 95.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Krug Grande Cuvée 169eme Édition Brut Magnum (150cl)",
-    "Vintage": "",
-    "Price": "€ 740.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Krug Grande Cuvée 171eme Édition Brut",
-    "Vintage": "",
-    "Price": "€ 325.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Krug Grande Cuvée 172eme Édition Brut",
-    "Vintage": "",
-    "Price": "€ 325.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Krug Rosé 28ème Édition Brut",
-    "Vintage": "",
-    "Price": "€ 490.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Krug Rosé 20ème Édition Brut Magnum (150cl)",
-    "Vintage": "",
-    "Price": "€ 1,465.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Krug Vintage Brut",
-    "Vintage": 2000.0,
-    "Price": "€ 720.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Laherte Frères Ultradition Extra Brut",
-    "Vintage": "",
-    "Price": "€ 75.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Laherte Frères Les 7 Extra Brut",
-    "Vintage": "",
-    "Price": "€ 170.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Larmandier-Bernier Longitude 1er Cru Blanc de Blancs Extra Brut",
-    "Vintage": "",
-    "Price": "€ 115.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Larmandier-Bernier Terre de Vertus 1er Cru Brut Nature",
-    "Vintage": 2015.0,
-    "Price": "€ 165.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Laurent-Perrier Alexandra Grande Cuvée Rosé Brut",
-    "Vintage": 2012.0,
-    "Price": "€ 560.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Louis Roederer Cristal Brut",
-    "Vintage": 2014.0,
-    "Price": "€ 500.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Louis Roederer Cristal Brut",
-    "Vintage": 2015.0,
-    "Price": "€ 475.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Marc Hébrart Mes Favorites 1er Cru Extra Brut",
-    "Vintage": "",
-    "Price": "€ 85.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Pascal Agrapart 7 Crus Brut",
-    "Vintage": "",
-    "Price": "€ 110.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Pertois-Moriset Les Quatre Terroirs Grand Cru Blanc de Blancs Brut Half Bottle (37.5cl)",
-    "Vintage": "",
-    "Price": "€ 45.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Philipponnat Blanc de Noirs Millésime Extra Brut",
-    "Vintage": 2018.0,
-    "Price": "€ 125.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Philipponnat Royale Réserve Rosé Brut",
-    "Vintage": "",
-    "Price": "€ 110.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Philipponnat Royale Réserve Non Dosé",
-    "Vintage": "",
-    "Price": "€ 95.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Pol Roger Réserve Brut Half Bottle (37.5cl)",
-    "Vintage": "",
-    "Price": "€ 65.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Pol Roger Réserve Brut Magnum (150cl)",
-    "Vintage": "",
-    "Price": "€ 230.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Robert Moncuit Les Chétillons Blanc de Blancs Extra Brut",
-    "Vintage": 2016.0,
-    "Price": "€ 160.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Ruinart Dom Ruinart Blanc de Blancs Extra Brut",
-    "Vintage": 2010.0,
-    "Price": "€ 385.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Ruinart Blanc de Blancs Extra Brut",
-    "Vintage": "",
-    "Price": "€ 140.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Ruinart Dom Ruinart Blanc de Blancs Extra Brut",
-    "Vintage": 2013.0,
-    "Price": "€ 400.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Ruinart Dom Ruinart Rosé Brut",
-    "Vintage": 2009.0,
-    "Price": "€ 410.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Ruinart Rosé Brut",
-    "Vintage": "",
-    "Price": "€ 130.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Vilmart & Cie Grand Cellier d'Or 1er Cru Brut",
-    "Vintage": 2017.0,
-    "Price": "€ 100.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Vilmart & Cie Grand Cellier 1er Cru Brut",
-    "Vintage": "",
-    "Price": "€ 80.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Parigot & Richard Origines Crémant de Bourgogne Brut",
-    "Vintage": "",
-    "Price": "€ 55.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Parigot & Richard Prophete Crémant de Bourgogne Extra Brut",
-    "Vintage": 2022.0,
-    "Price": "€ 65.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Arnaud Lambert Crémant de Loire Brut",
-    "Vintage": "",
-    "Price": "€ 45.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Jean-Pierre Robinot Fêtembulles Pet-Nat",
-    "Vintage": 2022.0,
-    "Price": "€ 90.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Fernand Engel Crémant d’Alsace Chardonnay Brut",
-    "Vintage": 2022.0,
-    "Price": "€ 45.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Sieur D'Arques Grande Cuvée Crémant de Limoux Rosé Brut",
-    "Vintage": "",
-    "Price": "€ 40.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "M.Chapoutier La Muse De RW Saint-Péray Brut Nature Magnum (150cl)",
-    "Vintage": 2014.0,
-    "Price": "€ 145.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "M.Chapoutier La Muse De RW Saint-Péray Brut Nature",
-    "Vintage": 2017.0,
-    "Price": "€ 60.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Jacquesson Cuvée Nr. 747 Extra Brut Magnum (150cl)",
-    "Vintage": "",
-    "Price": "€ 225.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Ruggeri Quartese Prosecco Valdobbiadene Superiore Brut",
-    "Vintage": "",
-    "Price": "€ 45.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Bellavista Grande Cuvée Alma Franciacorta Non Dosato",
-    "Vintage": "",
-    "Price": "€ 110.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Gramona Argent Corpinnat Rosé Grand Reserva Brut Nature",
-    "Vintage": 2021.0,
-    "Price": "€ 95.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Gramona III Lustros Corpinnat Gran Reserva Brut Nature",
-    "Vintage": 2014.0,
-    "Price": "€ 90.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Alta Alella Mirgin Cava Gran Reserva Brut Nature",
-    "Vintage": 2020.0,
-    "Price": "€ 60.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "António Maçanita Da Pedra Se Fez Vinho Espumante Branco Extra Bruto",
-    "Vintage": "",
-    "Price": "€ 230.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Marquês de Marialva Bical & Arinto Espumante Reserva Brut",
-    "Vintage": 2019.0,
-    "Price": "€ 50.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Vértice Douro Cuvée Brut",
-    "Vintage": "",
-    "Price": "€ 50.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Vértice Douro Gouveio Brut",
-    "Vintage": "",
-    "Price": "€ 90.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Weingut Meierer OMG! Riesling Pet-Nat",
-    "Vintage": 2020.0,
-    "Price": "€ 50.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Peter Jakob Kühn Sekt Blanc de Noirs Brut Nature",
-    "Vintage": 2019.0,
-    "Price": "€ 80.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Loimer Gumpoldskirchen Sekt Grosse Reserve Brut Nature",
-    "Vintage": "",
-    "Price": "€ 100.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Bründlmayer Sekt Rosé Brut",
-    "Vintage": "",
-    "Price": "€ 80.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Gusbourne 51 Degrees North Brut",
-    "Vintage": 2016.0,
-    "Price": "€ 360.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Gusbourne Brut Réserve",
-    "Vintage": 2020.0,
-    "Price": "€ 145.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Thomson & Scott Noughty Non-Alcoholic Sparkling Chardonnay",
-    "Vintage": "",
-    "Price": "€ 40.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Thomson & Scott Noughty Non-Alcoholic Sparkling Rosé Tempranillo",
-    "Vintage": "",
-    "Price": "€ 40.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Muri Fade to Black Non-Alcoholic Sparkling Red",
-    "Vintage": "",
-    "Price": "€ 50.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Muri Passing Clouds Non-Alcoholic Sparkling White",
-    "Vintage": "",
-    "Price": "€ 50.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Jansz Premium Cuvée Brut",
-    "Vintage": "",
-    "Price": "€ 60.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "House of Arras Blanc de Blancs Brut",
-    "Vintage": "",
-    "Price": "€ 95.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Jansz Late Disgorged Vintage Cuvée Brut",
-    "Vintage": 2013.0,
-    "Price": "€ 80.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "House of Arras A by Arras Premium Cuvée Brut",
-    "Vintage": "",
-    "Price": "€ 70.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Creation Elation MCC Brut Nature",
-    "Vintage": 2016.0,
-    "Price": "€ 75.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Testalonga El Bandito I Wish I Was a Ninja Pet-Nat",
-    "Vintage": 2022.0,
-    "Price": "€ 50.00 ",
-    "Category": "Sparkling",
-    "Glass": "Champagne flute / tulip",
-    "Suggested Pairings": "Dim sum • Oysters/shellfish • Palate cleanser for Peking Duck"
-  },
-  {
-    "Name": "Daniel-Étienne Defaix Blanchot Chablis Grand Cru",
-    "Vintage": 2012.0,
-    "Price": "€ 250.00 ",
-    "Category": "White",
-    "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
-  },
-  {
-    "Name": "Domaine de l'Enclos Mont de Milieu Chablis 1er Cru",
-    "Vintage": 2018.0,
-    "Price": "€ 135.00 ",
-    "Category": "White",
-    "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
-  },
-  {
     "Name": "Domaine de l'Enclos Montmains Chablis 1er Cru",
     "Vintage": 2021.0,
     "Price": "€ 120.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Domaine de l'Enclos Vau de Vey Chablis 1er Cru",
@@ -813,7 +13,7 @@
     "Price": "€ 110.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Patrick Piuze Bougros Chablis Grand Cru",
@@ -821,7 +21,7 @@
     "Price": "€ 160.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Patrick Piuze Butteaux Chablis 1er Cru",
@@ -829,7 +29,7 @@
     "Price": "€ 130.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Patrick Piuze Vaulorent Chablis 1er Cru",
@@ -837,7 +37,7 @@
     "Price": "€ 140.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Alain Chavy Champs Gains Puligny-Montrachet 1er Cru",
@@ -845,7 +45,7 @@
     "Price": "€ 240.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "A.F. Gros Les Montrevenots Blanc Beaune 1er Cru",
@@ -853,7 +53,7 @@
     "Price": "€ 200.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Bernard Bonin Clos du Cromin Meursault",
@@ -861,7 +61,7 @@
     "Price": "€ 955.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Domaine Chanson Les Folatières Puligny-Montrachet 1er Cru",
@@ -869,31 +69,31 @@
     "Price": "€ 290.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Domaine Chanson Pouilly-Fuissé",
     "Vintage": 2022.0,
     "Price": "€ 125.00 ",
-    "Category": "White",
-    "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Category": "Red",
+    "Glass": "Bordeaux (tall)",
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Domaine Chanson Rully",
     "Vintage": 2022.0,
     "Price": "€ 110.00 ",
-    "Category": "White",
-    "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Category": "Red",
+    "Glass": "Bordeaux (tall)",
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Jacques Prieur Champs Pimont Beaune 1er Cru",
     "Vintage": 2017.0,
     "Price": "€ 220.00 ",
-    "Category": "White",
-    "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Category": "Red",
+    "Glass": "Bordeaux (tall)",
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Jacques Prieur Clos de Mazeray Monopole Meursault",
@@ -901,7 +101,7 @@
     "Price": "€ 220.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Maison Leroy Bourgogne Blanc",
@@ -909,7 +109,7 @@
     "Price": "€ 490.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Maison Leroy Meursault",
@@ -917,7 +117,7 @@
     "Price": "€ 1,740.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Olivier Leflaive Clos Saint-Marc Chassagne-Montrachet 1er Cru",
@@ -925,7 +125,7 @@
     "Price": "€ 365.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Olivier Leflaive Les Pierres Chassagne-Montrachet",
@@ -933,7 +133,7 @@
     "Price": "€ 230.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Olivier Leflaive Les Setilles Bourgogne Blanc",
@@ -941,7 +141,7 @@
     "Price": "€ 115.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Olivier Leflaive Pernand-Vergelesses",
@@ -949,7 +149,7 @@
     "Price": "€ 150.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Olivier Leflaive Puligny-Montrachet",
@@ -957,15 +157,15 @@
     "Price": "€ 240.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Patrick Javillier Cuvée des Forgets Bourgogne Côte d'Or Blanc",
     "Vintage": 2021.0,
     "Price": "€ 85.00 ",
-    "Category": "White",
-    "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Category": "Light Red",
+    "Glass": "Burgundy (large bowl)",
+    "Suggested Pairings": "Duck, pork, mushrooms, tuna"
   },
   {
     "Name": "Pierre Yves Colin Morey Les Genevrières Meursault 1er Cru",
@@ -973,7 +173,7 @@
     "Price": "€ 1,220.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Remi Jobard Sous la Velle Meursault",
@@ -981,15 +181,15 @@
     "Price": "€ 210.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Vincent Girardin Corton-Charlemagne Grand Cru",
     "Vintage": 2022.0,
     "Price": "€ 705.00 ",
-    "Category": "White",
-    "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Category": "Red",
+    "Glass": "Bordeaux (tall)",
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Vincent Girardin Cuvée Saint-Vincent Bourgogne Blanc",
@@ -997,7 +197,7 @@
     "Price": "€ 90.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Claude Riffault Mosaique Calcaire Sancerre",
@@ -1005,7 +205,7 @@
     "Price": "€ 95.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Pascal Cotat Les Monts Damnés Sancerre",
@@ -1013,23 +213,23 @@
     "Price": "€ 200.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Domaine Huet Le Mont Vouvray Sec",
     "Vintage": 2021.0,
     "Price": "€ 110.00 ",
-    "Category": "White",
-    "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Category": "Red",
+    "Glass": "Bordeaux (tall)",
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Domaine Huet Le Haut-Lieu Vouvray Sec",
     "Vintage": 2021.0,
     "Price": "€ 85.00 ",
-    "Category": "White",
-    "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Category": "Red",
+    "Glass": "Bordeaux (tall)",
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Didier Dagueneau Blanc Etc.. Pouilly-Fumé",
@@ -1037,7 +237,7 @@
     "Price": "€ 210.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Domaine Ostertag Le Berceau Lieu-Dit Pflanzer Riesling",
@@ -1045,7 +245,7 @@
     "Price": "€ 130.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Domaine Ostertag Muenchberg Riesling Grand Cru",
@@ -1053,7 +253,7 @@
     "Price": "€ 145.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Domaine Ostertag Fronholz Riesling",
@@ -1061,7 +261,7 @@
     "Price": "€ 135.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Josmeyer Le Dragon Riesling",
@@ -1069,7 +269,7 @@
     "Price": "€ 95.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Domaine Ostertag Les Jardins Gewürztraminer",
@@ -1077,7 +277,7 @@
     "Price": "€ 75.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Josmeyer \"H\" Pinot Auxerrois",
@@ -1085,7 +285,7 @@
     "Price": "€ 85.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Josmeyer Mise du Printemps Pinot Blanc",
@@ -1093,7 +293,7 @@
     "Price": "€ 55.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Domaine Ostertag Pinot",
@@ -1101,7 +301,7 @@
     "Price": "€ 70.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Jean Bourdy Savagnin Côtes du Jura",
@@ -1109,7 +309,7 @@
     "Price": "€ 85.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Tardieu-Laurent Condrieu",
@@ -1117,23 +317,23 @@
     "Price": "€ 115.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "M. Chapoutier Chante-Alouette Hermitage Blanc",
     "Vintage": 2011.0,
     "Price": "€ 185.00 ",
-    "Category": "White",
-    "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Category": "Red",
+    "Glass": "Bordeaux (tall)",
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "M. Chapoutier Chante-Alouette Hermitage Blanc",
     "Vintage": 2012.0,
     "Price": "€ 195.00 ",
-    "Category": "White",
-    "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Category": "Red",
+    "Glass": "Bordeaux (tall)",
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Yves Cuilleron Les Chaillets Condrieu",
@@ -1141,7 +341,7 @@
     "Price": "€ 135.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Gaja Gaia & Rey Langhe Chardonnay",
@@ -1149,7 +349,7 @@
     "Price": "€ 490.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "La Scolca Etichetta Nera Gavi dei Gavi",
@@ -1157,7 +357,7 @@
     "Price": "€ 85.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Villa Sparina Gavi di Gavi Half Bottle (37.5cl)",
@@ -1165,7 +365,7 @@
     "Price": "€ 30.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Vigneti Massa Montecitorio Timorasso",
@@ -1173,7 +373,7 @@
     "Price": "€ 135.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Ornellaia Bianco",
@@ -1181,7 +381,7 @@
     "Price": "€ 395.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Poggio al Tesoro Sondraia Costa Toscana Bianco",
@@ -1189,7 +389,7 @@
     "Price": "€ 155.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Pieropan Calvarino Soave Classico",
@@ -1197,7 +397,7 @@
     "Price": "€ 65.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Pieropan La Rocca Soave Classico",
@@ -1205,7 +405,7 @@
     "Price": "€ 95.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Livio Felluga Pinot Grigio",
@@ -1213,7 +413,7 @@
     "Price": "€ 85.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Donnafugata Anthilia Bianco",
@@ -1221,7 +421,7 @@
     "Price": "€ 40.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Planeta Cometa Bianco",
@@ -1229,15 +429,15 @@
     "Price": "€ 85.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Masciarelli Marina Cvetic Iskra Malvasia",
     "Vintage": 2020.0,
     "Price": "€ 80.00 ",
-    "Category": "Fortified",
-    "Glass": "Fortified/Sherry (small, narrow)",
-    "Suggested Pairings": "Rich desserts • Chocolate • Digestif"
+    "Category": "Red",
+    "Glass": "Bordeaux (tall)",
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Siddura Spéra Vermentino di Gallura",
@@ -1245,7 +445,7 @@
     "Price": "€ 55.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "San Marzano Edda Bianco",
@@ -1253,7 +453,7 @@
     "Price": "€ 45.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Gaja & Graci IDDA Sicilia Bianco",
@@ -1261,7 +461,7 @@
     "Price": "€ 135.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Marqués de Murrieta Capellanía Rioja Reserva Blanco",
@@ -1269,7 +469,7 @@
     "Price": "€ 180.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Raúl Pérez Ultreia Godello Bierzo",
@@ -1277,7 +477,7 @@
     "Price": "€ 55.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "K5 Argiñano Sobre Lias Txakolina",
@@ -1285,7 +485,7 @@
     "Price": "€ 65.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "El Grifo Sobre Lias Vijariego",
@@ -1293,7 +493,7 @@
     "Price": "€ 85.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Gramona Gessamí",
@@ -1301,7 +501,7 @@
     "Price": "€ 40.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Forjas del Salnés Leirana Albariño Rias Baixas",
@@ -1309,15 +509,15 @@
     "Price": "€ 50.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Terras Gauda O Rosal Albariño",
     "Vintage": 2023.0,
     "Price": "€ 60.00 ",
-    "Category": "Red",
-    "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Category": "White",
+    "Glass": "White wine (tapered)",
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Azores Wine Company Arinto dos Açores by António Maçanita",
@@ -1325,7 +525,7 @@
     "Price": "€ 85.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Azores Wine Company Terrantez do Pico by António Maçanita",
@@ -1333,7 +533,7 @@
     "Price": "€ 150.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Quinta da Fonte Souto Taifa",
@@ -1341,7 +541,7 @@
     "Price": "€ 150.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Vicentino Alvarinho",
@@ -1349,7 +549,7 @@
     "Price": "€ 55.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Maçanita Vinhos Rabigato by Joaninha",
@@ -1357,7 +557,7 @@
     "Price": "€ 65.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Symington Pequeno Dilema",
@@ -1365,7 +565,7 @@
     "Price": "€ 55.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "António Maçanita & Nuno Faria Caracol dos Profetas",
@@ -1373,7 +573,7 @@
     "Price": "€ 70.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "António Maçanita & Nuno Faria Listrão dos Profetas Vinho da Corda",
@@ -1381,7 +581,7 @@
     "Price": "€ 140.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Anselmo Mendes Contacto Alvarinho",
@@ -1389,7 +589,7 @@
     "Price": "€ 45.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Clemens Busch Marienburg Fahrlay Riesling Grosse Lage",
@@ -1397,7 +597,7 @@
     "Price": "€ 115.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Clemens Busch Nonnengarten Riesling",
@@ -1405,7 +605,7 @@
     "Price": "€ 90.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Clemens Busch vom Roten Schiefer Riesling",
@@ -1413,7 +613,7 @@
     "Price": "€ 65.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Domäne Serrig Vogelsang Riesling Kabinett",
@@ -1421,7 +621,7 @@
     "Price": "€ 215.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Domäne Serrig Vogelsang Riesling Grosse Lage",
@@ -1429,7 +629,7 @@
     "Price": "€ 455.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Sybille Kuntz Riesling Kabinett Trocken",
@@ -1437,7 +637,7 @@
     "Price": "€ 60.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Dönnhoff Dellchen Riesling Grosses Gewächs Magnum (150cl)",
@@ -1445,7 +645,7 @@
     "Price": "€ 305.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Dönnhoff Dellchen Riesling Grosses Gewächs",
@@ -1453,7 +653,7 @@
     "Price": "€ 190.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Dönnhoff Roxheimer Höllenpfad Riesling Erste Lage",
@@ -1461,7 +661,7 @@
     "Price": "€ 130.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Tesch Königsschild Riesling",
@@ -1469,7 +669,7 @@
     "Price": "€ 55.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Tesch St. Remigiusberg Riesling",
@@ -1477,7 +677,7 @@
     "Price": "€ 60.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Battenfeld Spanier Zellertal Riesling",
@@ -1485,7 +685,7 @@
     "Price": "€ 120.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Ökonomierat Rebholz Im Sonnenschein Riesling Grosses Gewächs",
@@ -1493,7 +693,7 @@
     "Price": "€ 170.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Ökonomierat Rebholz Kastanienbusch Riesling Grosses Gewächs",
@@ -1501,7 +701,7 @@
     "Price": "€ 180.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Peter Jakob Kühn Hallgarten Riesling Alte Reben",
@@ -1509,7 +709,7 @@
     "Price": "€ 60.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Battenfeld Spanier Mölsheim Riesling Ersten Lagen",
@@ -1517,7 +717,7 @@
     "Price": "€ 85.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Battenfeld Spanier Kirchenstück Riesling Grosses Gewächs",
@@ -1525,7 +725,7 @@
     "Price": "€ 125.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Wittmann Morstein Riesling Grosses Gewächs",
@@ -1533,7 +733,7 @@
     "Price": "€ 165.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Emmerich Knoll Ried Schütt Riesling Smaragd",
@@ -1541,7 +741,7 @@
     "Price": "€ 180.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "F.X. Pichler Ried Loibenberg Riesling",
@@ -1549,7 +749,7 @@
     "Price": "€ 175.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "F.X. Pichler Ried Steinertal Riesling",
@@ -1557,7 +757,7 @@
     "Price": "€ 130.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Loimer Ried Loiserberg Riesling Erste Lage",
@@ -1565,7 +765,7 @@
     "Price": "€ 75.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Loimer Ried Steinmassl Riesling Erste Lage",
@@ -1573,7 +773,7 @@
     "Price": "€ 95.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Nikolaihof Vom Stein Riesling Smaragd",
@@ -1581,7 +781,7 @@
     "Price": "€ 100.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Nikolaihof Vom Stein Riesling Smaragd",
@@ -1589,7 +789,7 @@
     "Price": "€ 205.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Bernhard Ott Fass 4 Grüner Veltliner",
@@ -1597,7 +797,7 @@
     "Price": "€ 95.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "F.X. Pichler Ried Steinertal Grüner Veltliner",
@@ -1605,7 +805,7 @@
     "Price": "€ 150.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Franz Hirtzberger Rotes Tor Grüner Veltliner Federspiel",
@@ -1613,7 +813,7 @@
     "Price": "€ 90.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Franz Hirtzberger Rotes Tor Grüner Veltliner Smaragd",
@@ -1621,7 +821,7 @@
     "Price": "€ 130.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Loimer Ried Spiegel Grüner Veltliner Erste Lage",
@@ -1629,7 +829,7 @@
     "Price": "€ 85.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Nikolaihof Im Weingebirge Grüner Veltliner Federspiel",
@@ -1637,7 +837,7 @@
     "Price": "€ 180.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Nikolaihof Im Weingebirge Grüner Veltliner Smaragd",
@@ -1645,7 +845,7 @@
     "Price": "€ 185.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Tom Dockner Ried Theyerner Berg Grüner Veltliner",
@@ -1653,7 +853,7 @@
     "Price": "€ 45.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Schloss Gobelsburg Ried Renner Grüner Veltliner Erste Lage",
@@ -1661,7 +861,7 @@
     "Price": "€ 95.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Neumeister Straden Grauburgunder",
@@ -1669,7 +869,7 @@
     "Price": "€ 90.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Erwin Sabathi Ried Pössnitzberg Alte Reben Sauvignon Blanc",
@@ -1677,7 +877,7 @@
     "Price": "€ 160.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Erwin Sabathi Ried Pössnitzberg Sauvignon Blanc",
@@ -1685,7 +885,7 @@
     "Price": "€ 110.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Sattlerhof Ried Kranachberg Sauvignon Blanc Grosse STK Lage",
@@ -1693,7 +893,7 @@
     "Price": "€ 125.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Wieninger Bisamberg Wiener Gemischter Satz",
@@ -1701,7 +901,7 @@
     "Price": "€ 45.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Hatzidakis Winery Skitali Santorini",
@@ -1709,7 +909,7 @@
     "Price": "€ 180.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Hatzidakis Winery Cuvée No. 15 Santorini",
@@ -1717,7 +917,7 @@
     "Price": "€ 135.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Vassaltis Vineyards Gramina Santorini",
@@ -1725,7 +925,7 @@
     "Price": "€ 170.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Vassaltis Vineyards Santorini",
@@ -1733,7 +933,7 @@
     "Price": "€ 90.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Sauska Birs Chardonnay",
@@ -1741,7 +941,7 @@
     "Price": "€ 65.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Tushpa Muscat Semi-Dry",
@@ -1749,7 +949,7 @@
     "Price": "€ 55.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Tus Reserve Lalvari",
@@ -1757,7 +957,7 @@
     "Price": "€ 90.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Racines Rebelles La Source Pinot Blanc",
@@ -1765,7 +965,7 @@
     "Price": "€ 90.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Racines Rebelles Rosenberg Riesling",
@@ -1773,7 +973,7 @@
     "Price": "€ 85.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Edi Simcic Rebula",
@@ -1781,7 +981,7 @@
     "Price": "€ 80.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Arnot-Roberts Watson Ranch Chardonnay",
@@ -1789,7 +989,7 @@
     "Price": "€ 105.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "DuMOL Hyde Vineyard Chardonnay",
@@ -1797,7 +997,7 @@
     "Price": "€ 195.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Kistler Les Noisetiers Chardonnay",
@@ -1805,7 +1005,7 @@
     "Price": "€ 195.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Racines Santa Rita Hills Chardonnay",
@@ -1813,7 +1013,7 @@
     "Price": "€ 135.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "The Prisoner Chardonnay",
@@ -1821,23 +1021,23 @@
     "Price": "€ 150.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Inglenook Blancaneaux",
     "Vintage": 2019.0,
     "Price": "€ 170.00 ",
-    "Category": "White",
-    "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Category": "Red",
+    "Glass": "Bordeaux (tall)",
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Tyrrell's Vat 1 Semillon",
     "Vintage": 2016.0,
     "Price": "€ 165.00 ",
-    "Category": "White",
-    "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Category": "Red",
+    "Glass": "Bordeaux (tall)",
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Henschke Peggy's Hill Riesling",
@@ -1845,7 +1045,7 @@
     "Price": "€ 55.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Penfolds BIN 51 Riesling",
@@ -1853,7 +1053,7 @@
     "Price": "€ 70.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Pewsey Vale Eden Valley Riesling",
@@ -1861,7 +1061,7 @@
     "Price": "€ 55.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Yalumba Samuel´s Collection Viognier",
@@ -1869,7 +1069,7 @@
     "Price": "€ 50.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Giaconda Estate Vineyard Chardonnay",
@@ -1877,7 +1077,7 @@
     "Price": "€ 270.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Cloudburst Chardonnay",
@@ -1885,7 +1085,7 @@
     "Price": "€ 205.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Rippon Mature Vine Riesling",
@@ -1893,7 +1093,7 @@
     "Price": "€ 130.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "A.A. Badenhorst Kalmoesfontein White Blend",
@@ -1901,7 +1101,7 @@
     "Price": "€ 75.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "David & Nadia Hoë-Steen Chenin Blanc",
@@ -1909,7 +1109,7 @@
     "Price": "€ 140.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Mullineux Granite Chenin Blanc",
@@ -1917,7 +1117,7 @@
     "Price": "€ 130.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Mullineux Schist Chenin Blanc",
@@ -1925,7 +1125,7 @@
     "Price": "€ 130.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Sadie Family Palladius",
@@ -1933,7 +1133,7 @@
     "Price": "€ 195.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Sadie Family Palladius",
@@ -1941,7 +1141,7 @@
     "Price": "€ 195.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Sadie Family Palladius",
@@ -1949,7 +1149,7 @@
     "Price": "€ 195.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Sadie Family Kokerboom Sémillon",
@@ -1957,7 +1157,7 @@
     "Price": "€ 95.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Alheit Vineyards Cartology Bush Vines",
@@ -1965,7 +1165,7 @@
     "Price": "€ 90.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Alheit Vineyards Hereafter Here Chenin Blanc",
@@ -1973,7 +1173,7 @@
     "Price": "€ 60.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Beeslaar Chardonnay",
@@ -1981,7 +1181,7 @@
     "Price": "€ 90.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Ken Forrester The FMC Chenin Blanc",
@@ -1989,7 +1189,7 @@
     "Price": "€ 140.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Newton Johnson Southend Chardonnay",
@@ -1997,7 +1197,7 @@
     "Price": "€ 50.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Sadie Family Skerpioen",
@@ -2005,7 +1205,7 @@
     "Price": "€ 80.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Recanati Reserve Chardonnay",
@@ -2013,7 +1213,7 @@
     "Price": "€ 75.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Gérard Bertrand Clos du Temple Rosé",
@@ -2021,7 +1221,7 @@
     "Price": "€ 240.00 ",
     "Category": "Rosé",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Dim sum • Light pork • Duck with fruit sauces"
+    "Suggested Pairings": "Dim sum, salads, light spice"
   },
   {
     "Name": "Château d'Esclans Garrus Rosé",
@@ -2029,7 +1229,7 @@
     "Price": "€ 205.00 ",
     "Category": "Rosé",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Dim sum • Light pork • Duck with fruit sauces"
+    "Suggested Pairings": "Dim sum, salads, light spice"
   },
   {
     "Name": "Château de Pampelonne Rosé",
@@ -2037,7 +1237,7 @@
     "Price": "€ 50.00 ",
     "Category": "Rosé",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Dim sum • Light pork • Duck with fruit sauces"
+    "Suggested Pairings": "Dim sum, salads, light spice"
   },
   {
     "Name": "Château Léoube Love by Léoube Rosé",
@@ -2045,7 +1245,7 @@
     "Price": "€ 50.00 ",
     "Category": "Rosé",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Dim sum • Light pork • Duck with fruit sauces"
+    "Suggested Pairings": "Dim sum, salads, light spice"
   },
   {
     "Name": "Château Léoube Secret de Léoube Rosé",
@@ -2053,7 +1253,7 @@
     "Price": "€ 85.00 ",
     "Category": "Rosé",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Dim sum • Light pork • Duck with fruit sauces"
+    "Suggested Pairings": "Dim sum, salads, light spice"
   },
   {
     "Name": "Château Minuty 281 Rosé",
@@ -2061,7 +1261,7 @@
     "Price": "€ 135.00 ",
     "Category": "Rosé",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Dim sum • Light pork • Duck with fruit sauces"
+    "Suggested Pairings": "Dim sum, salads, light spice"
   },
   {
     "Name": "Chateau Minuty M de Minuty Rose",
@@ -2069,7 +1269,7 @@
     "Price": "€ 50.00 ",
     "Category": "Rosé",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Dim sum • Light pork • Duck with fruit sauces"
+    "Suggested Pairings": "Dim sum, salads, light spice"
   },
   {
     "Name": "Peyrassol Château Peyrassol Rosé",
@@ -2077,7 +1277,7 @@
     "Price": "€ 60.00 ",
     "Category": "Rosé",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Dim sum • Light pork • Duck with fruit sauces"
+    "Suggested Pairings": "Dim sum, salads, light spice"
   },
   {
     "Name": "Miraval Rosé",
@@ -2085,7 +1285,7 @@
     "Price": "€ 80.00 ",
     "Category": "Rosé",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Dim sum • Light pork • Duck with fruit sauces"
+    "Suggested Pairings": "Dim sum, salads, light spice"
   },
   {
     "Name": "Miraval Studio Rosé",
@@ -2093,7 +1293,7 @@
     "Price": "€ 50.00 ",
     "Category": "Rosé",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Dim sum • Light pork • Duck with fruit sauces"
+    "Suggested Pairings": "Dim sum, salads, light spice"
   },
   {
     "Name": "Peyrassol Le Clos Peyrassol Rosé",
@@ -2101,7 +1301,7 @@
     "Price": "€ 110.00 ",
     "Category": "Rosé",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Dim sum • Light pork • Duck with fruit sauces"
+    "Suggested Pairings": "Dim sum, salads, light spice"
   },
   {
     "Name": "Jean-Pierre Robinot L'Iris",
@@ -2109,7 +1309,7 @@
     "Price": "€ 140.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Jean-Pierre Robinot Lumière de Silex",
@@ -2117,7 +1317,7 @@
     "Price": "€ 110.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Radikon Slatnik",
@@ -2125,7 +1325,7 @@
     "Price": "€ 110.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Chatzivaritis Estate Minimus",
@@ -2133,7 +1333,7 @@
     "Price": "€ 75.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Chatzivaritis Estate VRE",
@@ -2141,7 +1341,7 @@
     "Price": "€ 85.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Racines Rebelles Sur La Peau Skin Contact Elbling",
@@ -2149,7 +1349,7 @@
     "Price": "€ 80.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Burja Zelen",
@@ -2157,7 +1357,7 @@
     "Price": "€ 80.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Eight Pillars Rive Droite Grand Vin de Bordeaux",
@@ -2165,7 +1365,7 @@
     "Price": "€ 205.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Eight Pillars Rive Gauche Grand Vin de Bordeaux",
@@ -2173,7 +1373,7 @@
     "Price": "€ 205.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Château La Gaffelière",
@@ -2181,7 +1381,7 @@
     "Price": "€ 220.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Château Calon Ségur",
@@ -2189,7 +1389,7 @@
     "Price": "€ 315.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Château Calon Ségur Le C de Calon Segur",
@@ -2197,7 +1397,7 @@
     "Price": "€ 60.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Château Canon-La-Gaffelière",
@@ -2205,15 +1405,15 @@
     "Price": "€ 195.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Château Cheval Blanc",
     "Vintage": 2005.0,
     "Price": "€ 1,620.00 ",
-    "Category": "White",
-    "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Category": "Red",
+    "Glass": "Bordeaux (tall)",
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Château Cos d'Estournel",
@@ -2221,7 +1421,7 @@
     "Price": "€ 230.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Château Ducru-Beaucaillou",
@@ -2229,7 +1429,7 @@
     "Price": "€ 405.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Château Ducru-Beaucaillou",
@@ -2237,7 +1437,7 @@
     "Price": "€ 880.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Château Durfort-Vivens",
@@ -2245,7 +1445,7 @@
     "Price": "€ 145.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Château Figeac",
@@ -2253,7 +1453,7 @@
     "Price": "€ 400.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Château Figeac Petit-Figeac",
@@ -2261,7 +1461,7 @@
     "Price": "€ 160.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Château Haut-Brion",
@@ -2269,7 +1469,7 @@
     "Price": "€ 1,070.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Château Haut-Brion",
@@ -2277,7 +1477,7 @@
     "Price": "€ 725.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Château Haut-Brion Magnum (150cl)",
@@ -2285,7 +1485,7 @@
     "Price": "€ 2,160.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Château La Gaffelière Magnum (150cl)",
@@ -2293,7 +1493,7 @@
     "Price": "€ 255.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Château Latour Le Pauillac de Latour",
@@ -2301,7 +1501,7 @@
     "Price": "€ 240.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Château Léoville-Las Cases",
@@ -2309,7 +1509,7 @@
     "Price": "€ 300.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Château Léoville Poyferré",
@@ -2317,7 +1517,7 @@
     "Price": "€ 240.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Château Léoville Poyferré Magnum (150cl)",
@@ -2325,7 +1525,7 @@
     "Price": "€ 460.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Château Lynch-Bages",
@@ -2333,7 +1533,7 @@
     "Price": "€ 320.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Château Marjosse",
@@ -2341,7 +1541,7 @@
     "Price": "€ 55.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Château Marjosse Magnum (150cl)",
@@ -2349,7 +1549,7 @@
     "Price": "€ 85.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Château Palmer Alter Ego",
@@ -2357,7 +1557,7 @@
     "Price": "€ 165.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Château Pape Clément",
@@ -2365,7 +1565,7 @@
     "Price": "€ 240.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Pétrus",
@@ -2373,7 +1573,7 @@
     "Price": "€ 6,225.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Pétrus",
@@ -2381,7 +1581,7 @@
     "Price": "€ 6,130.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Château Phélan Ségur",
@@ -2389,7 +1589,7 @@
     "Price": "€ 115.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Château Smith Haut Lafitte Le Petit Smith Haut Lafitte",
@@ -2397,7 +1597,7 @@
     "Price": "€ 70.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Château Tronquoy-Lalande",
@@ -2405,7 +1605,7 @@
     "Price": "€ 70.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Château Valandraud",
@@ -2413,7 +1613,7 @@
     "Price": "€ 235.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Eight Pillars Grand Vin de Bordeaux Magnum (150cl)",
@@ -2421,7 +1621,7 @@
     "Price": "€ 360.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Vieux Château Certan",
@@ -2429,7 +1629,7 @@
     "Price": "€ 320.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Vieux Château Certan",
@@ -2437,7 +1637,7 @@
     "Price": "€ 285.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "A.F. Gros Les Arvelets Pommard 1er Cru",
@@ -2445,7 +1645,7 @@
     "Price": "€ 225.00 ",
     "Category": "Light Red",
     "Glass": "Burgundy (large bowl)",
-    "Suggested Pairings": "Peking Duck • Char siu • Mushroom dishes"
+    "Suggested Pairings": "Duck, pork, mushrooms, tuna"
   },
   {
     "Name": "Comte Armand Clos des Epeneaux Monopole Pommard 1er Cru",
@@ -2453,23 +1653,23 @@
     "Price": "€ 280.00 ",
     "Category": "Light Red",
     "Glass": "Burgundy (large bowl)",
-    "Suggested Pairings": "Peking Duck • Char siu • Mushroom dishes"
+    "Suggested Pairings": "Duck, pork, mushrooms, tuna"
   },
   {
     "Name": "Domaine de la Romanée-Conti Richebourg Grand Cru",
     "Vintage": 2007.0,
     "Price": "€ 8,400.00 ",
-    "Category": "Light Red",
-    "Glass": "Burgundy (large bowl)",
-    "Suggested Pairings": "Peking Duck • Char siu • Mushroom dishes"
+    "Category": "Red",
+    "Glass": "Bordeaux (tall)",
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Domaine de la Vougeraie Clos du Roi Corton Grand Cru",
     "Vintage": 2019.0,
     "Price": "€ 275.00 ",
-    "Category": "Light Red",
-    "Glass": "Burgundy (large bowl)",
-    "Suggested Pairings": "Peking Duck • Char siu • Mushroom dishes"
+    "Category": "Red",
+    "Glass": "Bordeaux (tall)",
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Dugat-Py Cuvée Coeur de Roy Gevrey-Chambertin",
@@ -2477,7 +1677,7 @@
     "Price": "€ 285.00 ",
     "Category": "Light Red",
     "Glass": "Burgundy (large bowl)",
-    "Suggested Pairings": "Peking Duck • Char siu • Mushroom dishes"
+    "Suggested Pairings": "Duck, pork, mushrooms, tuna"
   },
   {
     "Name": "Hervé Roumier Bonnes Mares Grand Cru",
@@ -2485,7 +1685,7 @@
     "Price": "€ 295.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Hubert & Laurent Lignier Les Didiers Nuits-Saint-Georges 1er Cru",
@@ -2493,7 +1693,7 @@
     "Price": "€ 255.00 ",
     "Category": "Light Red",
     "Glass": "Burgundy (large bowl)",
-    "Suggested Pairings": "Peking Duck • Char siu • Mushroom dishes"
+    "Suggested Pairings": "Duck, pork, mushrooms, tuna"
   },
   {
     "Name": "Jean-Marc & Thomas Bouley Clos des Chenes Volnay 1er Cru",
@@ -2501,15 +1701,15 @@
     "Price": "€ 220.00 ",
     "Category": "Light Red",
     "Glass": "Burgundy (large bowl)",
-    "Suggested Pairings": "Peking Duck • Char siu • Mushroom dishes"
+    "Suggested Pairings": "Duck, pork, mushrooms, tuna"
   },
   {
     "Name": "Maison Leroy Auxey-Duresses",
     "Vintage": 2016.0,
     "Price": "€ 1,465.00 ",
-    "Category": "Light Red",
-    "Glass": "Burgundy (large bowl)",
-    "Suggested Pairings": "Peking Duck • Char siu • Mushroom dishes"
+    "Category": "Red",
+    "Glass": "Bordeaux (tall)",
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Maison Leroy Savigny-les-Beaune",
@@ -2517,7 +1717,7 @@
     "Price": "€ 1,375.00 ",
     "Category": "Light Red",
     "Glass": "Burgundy (large bowl)",
-    "Suggested Pairings": "Peking Duck • Char siu • Mushroom dishes"
+    "Suggested Pairings": "Duck, pork, mushrooms, tuna"
   },
   {
     "Name": "Michel Lafarge Bourgogne Rouge",
@@ -2525,7 +1725,7 @@
     "Price": "€ 80.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Michel Lafarge Clos du Château des Ducs Volnay 1er Cru",
@@ -2533,7 +1733,7 @@
     "Price": "€ 455.00 ",
     "Category": "Light Red",
     "Glass": "Burgundy (large bowl)",
-    "Suggested Pairings": "Peking Duck • Char siu • Mushroom dishes"
+    "Suggested Pairings": "Duck, pork, mushrooms, tuna"
   },
   {
     "Name": "A.F. Gros Haut Côtes de Nuits Bourgogne Rouge",
@@ -2541,7 +1741,7 @@
     "Price": "€ 120.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Arnaud Lambert Breze Clos Mazurique Saumur Rouge",
@@ -2549,7 +1749,7 @@
     "Price": "€ 50.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Arnaud Lambert Montée des Roches Saumur-Champigny",
@@ -2557,23 +1757,23 @@
     "Price": "€ 85.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Mee Godard Corcelette Morgon",
     "Vintage": 2021.0,
     "Price": "€ 80.00 ",
-    "Category": "Light Red",
-    "Glass": "Burgundy (large bowl)",
-    "Suggested Pairings": "Peking Duck • Char siu • Mushroom dishes"
+    "Category": "Red",
+    "Glass": "Bordeaux (tall)",
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Marcel Lapierre Tradition Morgon",
     "Vintage": 2021.0,
     "Price": "€ 95.00 ",
-    "Category": "Light Red",
-    "Glass": "Burgundy (large bowl)",
-    "Suggested Pairings": "Peking Duck • Char siu • Mushroom dishes"
+    "Category": "Red",
+    "Glass": "Bordeaux (tall)",
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Marcel Lapierre Le Beaujolais",
@@ -2581,7 +1781,7 @@
     "Price": "€ 75.00 ",
     "Category": "Light Red",
     "Glass": "Burgundy (large bowl)",
-    "Suggested Pairings": "Peking Duck • Char siu • Mushroom dishes"
+    "Suggested Pairings": "Duck, pork, mushrooms, tuna"
   },
   {
     "Name": "Château de Pibarnon Bandol",
@@ -2589,7 +1789,7 @@
     "Price": "€ 140.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Domaine de la Janasse Vieilles Vignes Châteauneuf-du-Pape",
@@ -2597,7 +1797,7 @@
     "Price": "€ 225.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Domaine de la Janasse Chaupin Châteauneuf-du-Pape",
@@ -2605,7 +1805,7 @@
     "Price": "€ 180.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "E. Guigal La Landonne Côte-Rôtie",
@@ -2613,7 +1813,7 @@
     "Price": "€ 435.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "E. Guigal La Mouline Côte-Rôtie",
@@ -2621,7 +1821,7 @@
     "Price": "€ 435.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "E. Guigal La Turque Côte-Rôtie",
@@ -2629,7 +1829,7 @@
     "Price": "€ 400.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Tardieu-Laurent Hermitage Rouge",
@@ -2637,7 +1837,7 @@
     "Price": "€ 165.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Château Palmer Historical XIXth Century Wine",
@@ -2645,7 +1845,7 @@
     "Price": "€ 360.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Jean-Pierre Robinot Lumière des Sens",
@@ -2653,7 +1853,7 @@
     "Price": "€ 110.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Jean-Pierre Robinot Prélude",
@@ -2661,7 +1861,7 @@
     "Price": "€ 200.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Pierre Graffeuille et Matthieu Dumarcher Odyssée",
@@ -2669,7 +1869,7 @@
     "Price": "€ 105.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Roagna Langhe Rosso",
@@ -2677,7 +1877,7 @@
     "Price": "€ 130.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Gaja Barbaresco",
@@ -2685,7 +1885,7 @@
     "Price": "€ 270.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Giuseppe Cortese Rabajà Barbaresco Riserva",
@@ -2693,7 +1893,7 @@
     "Price": "€ 225.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Produttori del Barbaresco Barbaresco",
@@ -2701,7 +1901,7 @@
     "Price": "€ 130.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Roagna Pajè Vecchie Viti Barbaresco",
@@ -2709,7 +1909,7 @@
     "Price": "€ 535.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Luciano Sandrone Le Vigne Barolo",
@@ -2717,7 +1917,7 @@
     "Price": "€ 215.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Michele Chiarlo Cerequio Barolo Riserva",
@@ -2725,7 +1925,7 @@
     "Price": "€ 200.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Roagna Barolo del Commune di Barolo",
@@ -2733,7 +1933,7 @@
     "Price": "€ 255.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Roberto Voerzio Barolo del Comune di la Morra",
@@ -2741,7 +1941,7 @@
     "Price": "€ 260.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Roberto Voerzio Cerequio Barolo",
@@ -2749,7 +1949,7 @@
     "Price": "€ 395.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Roberto Voerzio La Serra Barolo",
@@ -2757,7 +1957,7 @@
     "Price": "€ 310.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Vigneti Massa Sentieri Barbera",
@@ -2765,7 +1965,7 @@
     "Price": "€ 60.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Vigneti Massa Monleale Barbera",
@@ -2773,7 +1973,7 @@
     "Price": "€ 75.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Le Macchiole Paleo Rosso",
@@ -2781,7 +1981,7 @@
     "Price": "€ 195.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Ornellaia Le Serre Nuove dell'Ornellaia",
@@ -2789,7 +1989,7 @@
     "Price": "€ 140.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Ornellaia",
@@ -2797,7 +1997,7 @@
     "Price": "€ 335.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Gaja Pieve Santa Restituta Brunello di Montalcino",
@@ -2805,7 +2005,7 @@
     "Price": "€ 185.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Querciabella Chianti Classico",
@@ -2813,7 +2013,7 @@
     "Price": "€ 70.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Tenuta San Guido Le Difese",
@@ -2821,7 +2021,7 @@
     "Price": "€ 65.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Antinori Solaia",
@@ -2829,7 +2029,7 @@
     "Price": "€ 530.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Antinori Tignanello",
@@ -2837,7 +2037,7 @@
     "Price": "€ 240.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Avignonesi & Capannelle 50&50",
@@ -2845,7 +2045,7 @@
     "Price": "€ 210.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Capannelle Vino da Tavola Rosso",
@@ -2853,7 +2053,7 @@
     "Price": "€ 220.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Le Macchiole Scrio",
@@ -2861,7 +2061,7 @@
     "Price": "€ 235.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Montevertine Le Pergole Torte",
@@ -2869,7 +2069,7 @@
     "Price": "€ 355.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Petrolo Galatrona",
@@ -2877,7 +2077,7 @@
     "Price": "€ 215.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Podere Le Boncie Le Trame",
@@ -2885,7 +2085,7 @@
     "Price": "€ 105.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Tenuta San Guido Guidalberto",
@@ -2893,7 +2093,7 @@
     "Price": "€ 105.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Poliziano Vino Nobile di Montepulciano",
@@ -2901,7 +2101,7 @@
     "Price": "€ 90.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Ornellaia Le Volte dell'Ornellaia",
@@ -2909,7 +2109,7 @@
     "Price": "€ 70.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Mazzei Concerto di Fonterutoli",
@@ -2917,7 +2117,7 @@
     "Price": "€ 145.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Allegrini La Poja Monovitigno Corvina Veronese",
@@ -2925,7 +2125,7 @@
     "Price": "€ 165.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Giuseppe Quintarelli Amarone della Valpolicella Classico",
@@ -2933,7 +2133,7 @@
     "Price": "€ 365.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Dal Forno Romano Monte Lodoletta Amarone della Valpolicella",
@@ -2941,7 +2141,7 @@
     "Price": "€ 620.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Dal Forno Romano Monte Lodoletta Valpolicella Superiore",
@@ -2949,7 +2149,7 @@
     "Price": "€ 250.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Radikon RS",
@@ -2957,7 +2157,7 @@
     "Price": "€ 110.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Radikon Pignoli 50cl",
@@ -2965,7 +2165,7 @@
     "Price": "€ 140.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Donnafugata Mille e Una Notte",
@@ -2973,7 +2173,7 @@
     "Price": "€ 135.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Cantine Argiolas Turriga Isola dei Nuraghi",
@@ -2981,7 +2181,7 @@
     "Price": "€ 205.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Elena Fucci Titolo Aglianico del Vulture",
@@ -2989,15 +2189,15 @@
     "Price": "€ 125.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "COS Frappato",
     "Vintage": 2023.0,
     "Price": "€ 65.00 ",
-    "Category": "Light Red",
-    "Glass": "Burgundy (large bowl)",
-    "Suggested Pairings": "Peking Duck • Char siu • Mushroom dishes"
+    "Category": "Red",
+    "Glass": "Bordeaux (tall)",
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Benjamin de Rothschild & Vega Sicilia Macán Clásico",
@@ -3005,7 +2205,7 @@
     "Price": "€ 135.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Marqués de Murrieta Castillo Ygay Gran Reserva",
@@ -3013,7 +2213,7 @@
     "Price": "€ 250.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Marqués de Murrieta Castillo Ygay Gran Reserva",
@@ -3021,7 +2221,7 @@
     "Price": "€ 250.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "R. López de Heredia Viña Tondonia Reserva",
@@ -3029,7 +2229,7 @@
     "Price": "€ 135.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Telmo Rodriguez Yjar",
@@ -3037,7 +2237,7 @@
     "Price": "€ 240.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Bodega Vivaltus",
@@ -3045,7 +2245,7 @@
     "Price": "€ 210.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Dominio de Pingus Flor de Pingus",
@@ -3053,7 +2253,7 @@
     "Price": "€ 145.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Raúl Pérez Las Gundiñas Bierzo",
@@ -3061,7 +2261,7 @@
     "Price": "€ 75.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Telmo Rodriguez Matallana",
@@ -3069,7 +2269,7 @@
     "Price": "€ 110.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Vega Sicilia Alión",
@@ -3077,7 +2277,7 @@
     "Price": "€ 195.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Vega Sicilia Único Reserva Especiale 2015 Release",
@@ -3085,7 +2285,7 @@
     "Price": "€ 860.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Ànima Negra ÀN/2 Mallorca",
@@ -3093,7 +2293,7 @@
     "Price": "€ 70.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Algueira Dolio Ribeira Sacra",
@@ -3101,15 +2301,15 @@
     "Price": "€ 140.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Forjas del Salnés Goliardo Caiño Rías Baixas",
     "Vintage": 2020.0,
     "Price": "€ 80.00 ",
-    "Category": "White",
-    "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Category": "Red",
+    "Glass": "Bordeaux (tall)",
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Telmo Rodriguez LG Valbuxan Tinto Lexitimo Valdeorras",
@@ -3117,15 +2317,15 @@
     "Price": "€ 65.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Comando G La Bruja de Rozas Garnacha",
     "Vintage": 2020.0,
     "Price": "€ 65.00 ",
-    "Category": "Light Red",
-    "Glass": "Burgundy (large bowl)",
-    "Suggested Pairings": "Peking Duck • Char siu • Mushroom dishes"
+    "Category": "Red",
+    "Glass": "Bordeaux (tall)",
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Ilha do Pico Terras de Lava Syrah",
@@ -3133,7 +2333,7 @@
     "Price": "€ 50.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "P+S Prats & Symington Post Scriptum de Chryseia",
@@ -3141,7 +2341,7 @@
     "Price": "€ 65.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Jülg Schweigen Spätburgunder",
@@ -3149,7 +2349,7 @@
     "Price": "€ 90.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "J.J. Adeneuer Gärkammer Spätburgunder GG",
@@ -3157,7 +2357,7 @@
     "Price": "€ 180.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Meyer-Näkel Dernauer Blauschiefer Spätburgunder",
@@ -3165,7 +2365,7 @@
     "Price": "€ 105.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Moric Blaufränkisch",
@@ -3173,7 +2373,7 @@
     "Price": "€ 140.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Vassaltis Vineyards Mavrotragano",
@@ -3181,7 +2381,7 @@
     "Price": "€ 95.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Thymiopoulos Young Wines Xinomavro",
@@ -3189,7 +2389,7 @@
     "Price": "€ 40.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Krya Red Dry",
@@ -3197,7 +2397,7 @@
     "Price": "€ 95.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "The Prisoner Red Blend",
@@ -3205,7 +2405,7 @@
     "Price": "€ 135.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Joseph Phelps Insignia",
@@ -3213,7 +2413,7 @@
     "Price": "€ 435.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Inglenook Rubicon Magnum (150cl)",
@@ -3221,7 +2421,7 @@
     "Price": "€ 435.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Jonata El Alma de Jonata",
@@ -3229,7 +2429,7 @@
     "Price": "€ 240.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Vérité Le Désir",
@@ -3237,7 +2437,7 @@
     "Price": "€ 640.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "To Kalon Vineyard Co. Eliza's Red Blend",
@@ -3245,23 +2445,23 @@
     "Price": "€ 385.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Derenoncourt Tâche d'Encre Cabernet Sauvignon",
     "Vintage": 2012.0,
     "Price": "€ 200.00 ",
-    "Category": "Red",
-    "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Category": "White",
+    "Glass": "White wine (tapered)",
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Inglenook Cabernet Sauvignon",
     "Vintage": 2018.0,
     "Price": "€ 195.00 ",
-    "Category": "Red",
-    "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Category": "White",
+    "Glass": "White wine (tapered)",
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Vérité La Joie",
@@ -3269,15 +2469,15 @@
     "Price": "€ 640.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Robert Mondavi Winery Reserve Cabernet Sauvignon",
     "Vintage": 2015.0,
     "Price": "€ 220.00 ",
-    "Category": "Red",
-    "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Category": "White",
+    "Glass": "White wine (tapered)",
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Harlan Estate The Maiden",
@@ -3285,7 +2485,7 @@
     "Price": "€ 720.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "L'Aventure Côte à Côte",
@@ -3293,7 +2493,7 @@
     "Price": "€ 215.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Derenoncourt Stagecoach Vineyard Merlot",
@@ -3301,7 +2501,7 @@
     "Price": "€ 135.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Au Bon Climat Knox Alexander Pinot Noir",
@@ -3309,7 +2509,7 @@
     "Price": "€ 195.00 ",
     "Category": "Light Red",
     "Glass": "Burgundy (large bowl)",
-    "Suggested Pairings": "Peking Duck • Char siu • Mushroom dishes"
+    "Suggested Pairings": "Duck, pork, mushrooms, tuna"
   },
   {
     "Name": "DuMOL Joy Road Vineyard Pinot Noir",
@@ -3317,7 +2517,7 @@
     "Price": "€ 205.00 ",
     "Category": "Light Red",
     "Glass": "Burgundy (large bowl)",
-    "Suggested Pairings": "Peking Duck • Char siu • Mushroom dishes"
+    "Suggested Pairings": "Duck, pork, mushrooms, tuna"
   },
   {
     "Name": "La Crema Russian River Valley Pinot Noir",
@@ -3325,7 +2525,7 @@
     "Price": "€ 130.00 ",
     "Category": "Light Red",
     "Glass": "Burgundy (large bowl)",
-    "Suggested Pairings": "Peking Duck • Char siu • Mushroom dishes"
+    "Suggested Pairings": "Duck, pork, mushrooms, tuna"
   },
   {
     "Name": "Racines Santa Rita Hills Cuvée Pinot Noir",
@@ -3333,7 +2533,7 @@
     "Price": "€ 160.00 ",
     "Category": "Light Red",
     "Glass": "Burgundy (large bowl)",
-    "Suggested Pairings": "Peking Duck • Char siu • Mushroom dishes"
+    "Suggested Pairings": "Duck, pork, mushrooms, tuna"
   },
   {
     "Name": "Sine Qua Non Eleven Confessions Syrah",
@@ -3341,7 +2541,7 @@
     "Price": "€ 880.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Ridge Vineyards Lytton Springs",
@@ -3349,7 +2549,7 @@
     "Price": "€ 170.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Lingua Franca Avni Pinot Noir",
@@ -3357,7 +2557,7 @@
     "Price": "€ 130.00 ",
     "Category": "Light Red",
     "Glass": "Burgundy (large bowl)",
-    "Suggested Pairings": "Peking Duck • Char siu • Mushroom dishes"
+    "Suggested Pairings": "Duck, pork, mushrooms, tuna"
   },
   {
     "Name": "Henschke Hill Of Grace Shiraz",
@@ -3365,31 +2565,31 @@
     "Price": "€ 755.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Penfolds Bin 169 Cabernet Sauvignon",
     "Vintage": 2018.0,
     "Price": "€ 250.00 ",
-    "Category": "Red",
-    "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Category": "White",
+    "Glass": "White wine (tapered)",
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Wynns Coonawarra Estate John Riddoch Cabernet Sauvignon",
     "Vintage": 2018.0,
     "Price": "€ 150.00 ",
-    "Category": "Red",
-    "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Category": "White",
+    "Glass": "White wine (tapered)",
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Yalumba The Cigar Cabernet Sauvignon",
     "Vintage": 2018.0,
     "Price": "€ 70.00 ",
-    "Category": "Red",
-    "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Category": "White",
+    "Glass": "White wine (tapered)",
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Henschke Keyneton Euphonium",
@@ -3397,7 +2597,7 @@
     "Price": "€ 85.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Henschke Johann's Garden",
@@ -3405,7 +2605,7 @@
     "Price": "€ 140.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Jim Barry The Armagh Shiraz",
@@ -3413,7 +2613,7 @@
     "Price": "€ 315.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Penfolds Grange Bin 95",
@@ -3421,7 +2621,7 @@
     "Price": "€ 720.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Yalumba The Octavius Shiraz",
@@ -3429,7 +2629,7 @@
     "Price": "€ 200.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Dalrymple Coal River Valley Pinot Noir",
@@ -3437,7 +2637,7 @@
     "Price": "€ 95.00 ",
     "Category": "Light Red",
     "Glass": "Burgundy (large bowl)",
-    "Suggested Pairings": "Peking Duck • Char siu • Mushroom dishes"
+    "Suggested Pairings": "Duck, pork, mushrooms, tuna"
   },
   {
     "Name": "Craggy Range Le Sol Syrah",
@@ -3445,7 +2645,7 @@
     "Price": "€ 180.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Catena Zapata Adrianna Vineyard River Malbec",
@@ -3453,7 +2653,7 @@
     "Price": "€ 220.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Catena Zapata Nicolas Catena Zapata Magnum (150cl)",
@@ -3461,7 +2661,7 @@
     "Price": "€ 275.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Catena Zapata Nicolas Catena Zapata",
@@ -3469,7 +2669,7 @@
     "Price": "€ 205.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Catena Zapata Adrianna Vineyard Mundus Bacillus Terrae Malbec",
@@ -3477,7 +2677,7 @@
     "Price": "€ 330.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Colomé Altura Máxima Malbec",
@@ -3485,7 +2685,7 @@
     "Price": "€ 230.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Seña",
@@ -3493,7 +2693,7 @@
     "Price": "€ 240.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Almaviva",
@@ -3501,7 +2701,7 @@
     "Price": "€ 250.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Clos Apalta Le Petit Clos",
@@ -3509,7 +2709,7 @@
     "Price": "€ 90.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Clos Apalta",
@@ -3517,7 +2717,7 @@
     "Price": "€ 245.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Montes Purple Angel",
@@ -3525,7 +2725,7 @@
     "Price": "€ 155.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Newton Johnson Family Vineyards Granum",
@@ -3533,7 +2733,7 @@
     "Price": "€ 65.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Beeslaar Pinotage Magnum (150cl)",
@@ -3541,7 +2741,7 @@
     "Price": "€ 210.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Sijnn Red",
@@ -3549,7 +2749,7 @@
     "Price": "€ 50.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Uva Mira The Mira Cabernet Franc",
@@ -3557,7 +2757,7 @@
     "Price": "€ 60.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Ao Yun Shangri-La",
@@ -3565,7 +2765,7 @@
     "Price": "€ 365.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Ao Yun Shangri-La",
@@ -3573,7 +2773,7 @@
     "Price": "€ 360.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Ao Yun Shangri-La",
@@ -3581,7 +2781,7 @@
     "Price": "€ 475.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Ao Yun Shangri-La",
@@ -3589,7 +2789,7 @@
     "Price": "€ 400.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Ao Yun Shangri-La",
@@ -3597,7 +2797,7 @@
     "Price": "€ 420.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Ao Yun Shangri-La Magnum (150cl)",
@@ -3605,7 +2805,7 @@
     "Price": "€ 930.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Ao Yun Shangri-La",
@@ -3613,7 +2813,7 @@
     "Price": "€ 335.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Dalton Nadav Single Vineyard",
@@ -3621,7 +2821,7 @@
     "Price": "€ 95.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Recanati Reserve Marselan",
@@ -3629,7 +2829,7 @@
     "Price": "€ 110.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Golan Heights Winery Yarden 2T",
@@ -3637,15 +2837,15 @@
     "Price": "€ 85.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Psagot Cabernet Sauvignon",
     "Vintage": 2021.0,
     "Price": "€ 95.00 ",
-    "Category": "Red",
-    "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Category": "White",
+    "Glass": "White wine (tapered)",
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Psagot Peak",
@@ -3653,7 +2853,7 @@
     "Price": "€ 130.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Recanati Wild Carignan",
@@ -3661,7 +2861,7 @@
     "Price": "€ 115.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Psagot Edom",
@@ -3669,7 +2869,7 @@
     "Price": "€ 105.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Château Guiraud Sauternes Premier Cru Classé Half Bottle (37.5cl)",
@@ -3677,7 +2877,7 @@
     "Price": "€ 70.00 ",
     "Category": "Dessert/Sweet",
     "Glass": "Dessert wine (small tulip)",
-    "Suggested Pairings": "Chinese desserts • Foie gras • Blue cheese"
+    "Suggested Pairings": "Desserts, fruit tarts, blue cheese"
   },
   {
     "Name": "Château d'Yquem Sauternes Premier Cru Supérieur",
@@ -3685,7 +2885,7 @@
     "Price": "€ 480.00 ",
     "Category": "Dessert/Sweet",
     "Glass": "Dessert wine (small tulip)",
-    "Suggested Pairings": "Chinese desserts • Foie gras • Blue cheese"
+    "Suggested Pairings": "Desserts, fruit tarts, blue cheese"
   },
   {
     "Name": "Domaine Labet Vin de Paille Côtes du Jura Half Bottle (37.5cl)",
@@ -3693,7 +2893,7 @@
     "Price": "€ 265.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Donnafugata Kabir Moscato di Pantelleria",
@@ -3701,7 +2901,7 @@
     "Price": "€ 75.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Donnafugata Ben Rye Passito di Pantelleria Half Bottle (37.5cl)",
@@ -3709,7 +2909,7 @@
     "Price": "€ 85.00 ",
     "Category": "Dessert/Sweet",
     "Glass": "Dessert wine (small tulip)",
-    "Suggested Pairings": "Chinese desserts • Foie gras • Blue cheese"
+    "Suggested Pairings": "Desserts, fruit tarts, blue cheese"
   },
   {
     "Name": "Egon Müller Wiltinger Braune Kupp Riesling Spätlese",
@@ -3717,15 +2917,15 @@
     "Price": "€ 225.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "Kracher TBA Grande Cuvée Nr. 5 Half Bottle (37.5cl)",
     "Vintage": 2019.0,
     "Price": "€ 80.00 ",
-    "Category": "Dessert/Sweet",
-    "Glass": "Dessert wine (small tulip)",
-    "Suggested Pairings": "Chinese desserts • Foie gras • Blue cheese"
+    "Category": "Red",
+    "Glass": "Bordeaux (tall)",
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Château Pajzos Tokaji Aszú 5 Puttonyos 50cl",
@@ -3733,7 +2933,7 @@
     "Price": "€ 50.00 ",
     "Category": "Dessert/Sweet",
     "Glass": "Dessert wine (small tulip)",
-    "Suggested Pairings": "Chinese desserts • Foie gras • Blue cheese"
+    "Suggested Pairings": "Desserts, fruit tarts, blue cheese"
   },
   {
     "Name": "Château Pajzos Tokaji Száraz Szamorodni 50cl",
@@ -3741,7 +2941,7 @@
     "Price": "€ 45.00 ",
     "Category": "Dessert/Sweet",
     "Glass": "Dessert wine (small tulip)",
-    "Suggested Pairings": "Chinese desserts • Foie gras • Blue cheese"
+    "Suggested Pairings": "Desserts, fruit tarts, blue cheese"
   },
   {
     "Name": "Sauska Tokaji Aszú 5 Puttonyos",
@@ -3749,7 +2949,7 @@
     "Price": "€ 65.00 ",
     "Category": "Dessert/Sweet",
     "Glass": "Dessert wine (small tulip)",
-    "Suggested Pairings": "Chinese desserts • Foie gras • Blue cheese"
+    "Suggested Pairings": "Desserts, fruit tarts, blue cheese"
   },
   {
     "Name": "Marie-Thérèse Chappaz Grain Noble Marsanne Blanche",
@@ -3757,7 +2957,7 @@
     "Price": "€ 100.00 ",
     "Category": "White",
     "Glass": "White wine (tapered)",
-    "Suggested Pairings": "Seafood (steamed fish, prawns, scallops) • Vegetables • Spicy dishes"
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   },
   {
     "Name": "De Bortoli Noble One Botrytis Sémillon Half Bottle (37.5cl)",
@@ -3765,7 +2965,7 @@
     "Price": "€ 95.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Mullineux Straw Wine Half Bottle (37.5cl)",
@@ -3773,7 +2973,7 @@
     "Price": "€ 55.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Klein Constantia Vin de Constance 50cl",
@@ -3781,7 +2981,7 @@
     "Price": "€ 150.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Lakeview Cellars Vidal Icewine Half Bottle (37.5cl)",
@@ -3789,15 +2989,15 @@
     "Price": "€ 100.00 ",
     "Category": "Dessert/Sweet",
     "Glass": "Dessert wine (small tulip)",
-    "Suggested Pairings": "Chinese desserts • Foie gras • Blue cheese"
+    "Suggested Pairings": "Desserts, fruit tarts, blue cheese"
   },
   {
     "Name": "Henriques & Henriques Malvasia Vintage",
     "Vintage": 1954.0,
     "Price": "€ 715.00 ",
-    "Category": "Fortified",
-    "Glass": "Fortified/Sherry (small, narrow)",
-    "Suggested Pairings": "Rich desserts • Chocolate • Digestif"
+    "Category": "Red",
+    "Glass": "Bordeaux (tall)",
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Henriques & Henriques Terrantez Vintage",
@@ -3805,15 +3005,15 @@
     "Price": "€ 480.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Henriques & Henriques Verdelho Solera",
     "Vintage": "",
     "Price": "€ 1,335.00 ",
-    "Category": "Fortified",
-    "Glass": "Fortified/Sherry (small, narrow)",
-    "Suggested Pairings": "Rich desserts • Chocolate • Digestif"
+    "Category": "Red",
+    "Glass": "Bordeaux (tall)",
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Niepoort Colheita Port",
@@ -3821,7 +3021,7 @@
     "Price": "€ 105.00 ",
     "Category": "Fortified",
     "Glass": "Fortified/Sherry (small, narrow)",
-    "Suggested Pairings": "Rich desserts • Chocolate • Digestif"
+    "Suggested Pairings": "Chocolate desserts, cheese, nuts"
   },
   {
     "Name": "Asahi-Shuzo Dassai 23 Junmai Daiginjo 72cl",
@@ -3829,7 +3029,7 @@
     "Price": "€ 165.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "IWA 5 Assemblage 3b Junmai Daiginjo 72cl",
@@ -3837,7 +3037,7 @@
     "Price": "€ 255.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Masuizumi Oak Barrel Aged Kijoshu 72cl",
@@ -3845,7 +3045,7 @@
     "Price": "€ 165.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
   },
   {
     "Name": "Masuizumi-Henri Giraud Junmai Daiginjo",
@@ -3853,6 +3053,806 @@
     "Price": "€ 340.00 ",
     "Category": "Red",
     "Glass": "Bordeaux (tall)",
-    "Suggested Pairings": "Beef • Lamb • Rich sauces (black bean, oyster sauce)"
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
+  },
+  {
+    "Name": "Alexandre Bonnet Blanc de Noirs Extra Brut",
+    "Vintage": "",
+    "Price": "€ 75.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Alexandre Bonnet Les Contrées Rosé Extra Brut",
+    "Vintage": 2019.0,
+    "Price": "€ 135.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Bernard Robert Le Treizot Grande Réserve Blanc de Blancs",
+    "Vintage": 2016.0,
+    "Price": "€ 90.00 ",
+    "Category": "White",
+    "Glass": "White wine (tapered)",
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
+  },
+  {
+    "Name": "Billecart-Salmon Cuvée Elisabeth Salmon Rosé Brut",
+    "Vintage": 2012.0,
+    "Price": "€ 540.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Billecart-Salmon Cuvée Nicolas Francois Brut",
+    "Vintage": 2008.0,
+    "Price": "€ 245.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Billecart-Salmon Le Clos Saint-Hilaire Brut",
+    "Vintage": 1999.0,
+    "Price": "€ 685.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Bollinger La Grande Année Brut",
+    "Vintage": 2015.0,
+    "Price": "€ 255.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Bollinger La Grande Année Rosé Brut",
+    "Vintage": 2015.0,
+    "Price": "€ 325.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Bonnet-Ponson Cuvée Perpétuelle Non Dosé",
+    "Vintage": "",
+    "Price": "€ 70.00 ",
+    "Category": "Red",
+    "Glass": "Bordeaux (tall)",
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
+  },
+  {
+    "Name": "Charles Heidsieck Blanc de Blancs Brut",
+    "Vintage": "",
+    "Price": "€ 115.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Charles Heidsieck Blanc des Millénaires Blanc de Blancs Brut",
+    "Vintage": 2014.0,
+    "Price": "€ 270.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Charles Heidsieck Rosé Réserve Brut",
+    "Vintage": "",
+    "Price": "€ 115.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Charles Heidsieck Collection Crayeres Brut Double Magnum (300cl)",
+    "Vintage": 1989.0,
+    "Price": "€ 1,100.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Charles Heidsieck Millésime Brut",
+    "Vintage": 2018.0,
+    "Price": "€ 160.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Charles Heidsieck Champagne Charlie Brut",
+    "Vintage": 1981.0,
+    "Price": "€ 775.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Charles Heidsieck Réserve Brut",
+    "Vintage": "",
+    "Price": "€ 95.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Chavost Blanc de Meunier Brut Nature",
+    "Vintage": "",
+    "Price": "€ 95.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Chavost Eurêka! Brut Nature",
+    "Vintage": "",
+    "Price": "€ 165.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Chavost Rosé de Saignée Brut Nature",
+    "Vintage": "",
+    "Price": "€ 120.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Dom Pérignon Brut",
+    "Vintage": 2015.0,
+    "Price": "€ 310.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Dom Pérignon Brut Magnum (150cl)",
+    "Vintage": 2012.0,
+    "Price": "€ 760.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Dom Pérignon Rosé Brut",
+    "Vintage": 2009.0,
+    "Price": "€ 485.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Dom Pérignon Plénitude P2 Brut",
+    "Vintage": 2004.0,
+    "Price": "€ 825.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Egly-Ouriet Tradition Grand Cru Brut",
+    "Vintage": "",
+    "Price": "€ 150.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Huré Frères L'Inattendue Blanc de Blancs Extra Brut",
+    "Vintage": 2019.0,
+    "Price": "€ 130.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "J.L.Vergnon Conversation Blanc de Blancs Brut",
+    "Vintage": "",
+    "Price": "€ 90.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Jacques Lassaigne Cuvée Clos Sainte-Sophie Blanc de Blancs Brut Nature",
+    "Vintage": 2015.0,
+    "Price": "€ 220.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Jacques Lassaigne Les Vignes de Montgueux Blanc de Blancs Extra Brut",
+    "Vintage": "",
+    "Price": "€ 95.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Jacques Lassaigne Millésime Blanc de Blancs Brut Nature",
+    "Vintage": 2013.0,
+    "Price": "€ 165.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Jacques Selosse Lieux-dits Le Bout du Clos Ambonnay Grand Cru Blanc de Noirs Extra Brut",
+    "Vintage": "",
+    "Price": "€ 915.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Jacques Selosse Millésimé Blanc de Blancs Extra Brut",
+    "Vintage": 2008.0,
+    "Price": "€ 7,685.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Jacquesson Avize - Champ Caïn Blanc de Blancs Extra Brut",
+    "Vintage": 2013.0,
+    "Price": "€ 260.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Jacquesson Cuvée Nr. 746 Extra Brut",
+    "Vintage": "",
+    "Price": "€ 120.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Jacquesson Cuvée Nr. 741 Dégorgement Tardif Extra Brut",
+    "Vintage": "",
+    "Price": "€ 175.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Jean Josselin Aux Origines Blanc de Noirs Extra Brut",
+    "Vintage": 2018.0,
+    "Price": "€ 95.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Krug Grande Cuvée 169eme Édition Brut Magnum (150cl)",
+    "Vintage": "",
+    "Price": "€ 740.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Krug Grande Cuvée 171eme Édition Brut",
+    "Vintage": "",
+    "Price": "€ 325.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Krug Grande Cuvée 172eme Édition Brut",
+    "Vintage": "",
+    "Price": "€ 325.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Krug Rosé 28ème Édition Brut",
+    "Vintage": "",
+    "Price": "€ 490.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Krug Rosé 20ème Édition Brut Magnum (150cl)",
+    "Vintage": "",
+    "Price": "€ 1,465.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Krug Vintage Brut",
+    "Vintage": 2000.0,
+    "Price": "€ 720.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Laherte Frères Ultradition Extra Brut",
+    "Vintage": "",
+    "Price": "€ 75.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Laherte Frères Les 7 Extra Brut",
+    "Vintage": "",
+    "Price": "€ 170.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Larmandier-Bernier Longitude 1er Cru Blanc de Blancs Extra Brut",
+    "Vintage": "",
+    "Price": "€ 115.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Larmandier-Bernier Terre de Vertus 1er Cru Brut Nature",
+    "Vintage": 2015.0,
+    "Price": "€ 165.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Laurent-Perrier Alexandra Grande Cuvée Rosé Brut",
+    "Vintage": 2012.0,
+    "Price": "€ 560.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Louis Roederer Cristal Brut",
+    "Vintage": 2014.0,
+    "Price": "€ 500.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Louis Roederer Cristal Brut",
+    "Vintage": 2015.0,
+    "Price": "€ 475.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Marc Hébrart Mes Favorites 1er Cru Extra Brut",
+    "Vintage": "",
+    "Price": "€ 85.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Pascal Agrapart 7 Crus Brut",
+    "Vintage": "",
+    "Price": "€ 110.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Pertois-Moriset Les Quatre Terroirs Grand Cru Blanc de Blancs Brut Half Bottle (37.5cl)",
+    "Vintage": "",
+    "Price": "€ 45.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Philipponnat Blanc de Noirs Millésime Extra Brut",
+    "Vintage": 2018.0,
+    "Price": "€ 125.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Philipponnat Royale Réserve Rosé Brut",
+    "Vintage": "",
+    "Price": "€ 110.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Philipponnat Royale Réserve Non Dosé",
+    "Vintage": "",
+    "Price": "€ 95.00 ",
+    "Category": "Red",
+    "Glass": "Bordeaux (tall)",
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
+  },
+  {
+    "Name": "Pol Roger Réserve Brut Half Bottle (37.5cl)",
+    "Vintage": "",
+    "Price": "€ 65.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Pol Roger Réserve Brut Magnum (150cl)",
+    "Vintage": "",
+    "Price": "€ 230.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Robert Moncuit Les Chétillons Blanc de Blancs Extra Brut",
+    "Vintage": 2016.0,
+    "Price": "€ 160.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Ruinart Dom Ruinart Blanc de Blancs Extra Brut",
+    "Vintage": 2010.0,
+    "Price": "€ 385.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Ruinart Blanc de Blancs Extra Brut",
+    "Vintage": "",
+    "Price": "€ 140.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Ruinart Dom Ruinart Blanc de Blancs Extra Brut",
+    "Vintage": 2013.0,
+    "Price": "€ 400.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Ruinart Dom Ruinart Rosé Brut",
+    "Vintage": 2009.0,
+    "Price": "€ 410.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Ruinart Rosé Brut",
+    "Vintage": "",
+    "Price": "€ 130.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Vilmart & Cie Grand Cellier d'Or 1er Cru Brut",
+    "Vintage": 2017.0,
+    "Price": "€ 100.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Vilmart & Cie Grand Cellier 1er Cru Brut",
+    "Vintage": "",
+    "Price": "€ 80.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Parigot & Richard Origines Crémant de Bourgogne Brut",
+    "Vintage": "",
+    "Price": "€ 55.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Parigot & Richard Prophete Crémant de Bourgogne Extra Brut",
+    "Vintage": 2022.0,
+    "Price": "€ 65.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Arnaud Lambert Crémant de Loire Brut",
+    "Vintage": "",
+    "Price": "€ 45.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Jean-Pierre Robinot Fêtembulles Pet-Nat",
+    "Vintage": 2022.0,
+    "Price": "€ 90.00 ",
+    "Category": "Red",
+    "Glass": "Bordeaux (tall)",
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
+  },
+  {
+    "Name": "Fernand Engel Crémant d’Alsace Chardonnay Brut",
+    "Vintage": 2022.0,
+    "Price": "€ 45.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Sieur D'Arques Grande Cuvée Crémant de Limoux Rosé Brut",
+    "Vintage": "",
+    "Price": "€ 40.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "M.Chapoutier La Muse De RW Saint-Péray Brut Nature Magnum (150cl)",
+    "Vintage": 2014.0,
+    "Price": "€ 145.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "M.Chapoutier La Muse De RW Saint-Péray Brut Nature",
+    "Vintage": 2017.0,
+    "Price": "€ 60.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Jacquesson Cuvée Nr. 747 Extra Brut Magnum (150cl)",
+    "Vintage": "",
+    "Price": "€ 225.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Ruggeri Quartese Prosecco Valdobbiadene Superiore Brut",
+    "Vintage": "",
+    "Price": "€ 45.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Bellavista Grande Cuvée Alma Franciacorta Non Dosato",
+    "Vintage": "",
+    "Price": "€ 110.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Gramona Argent Corpinnat Rosé Grand Reserva Brut Nature",
+    "Vintage": 2021.0,
+    "Price": "€ 95.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Gramona III Lustros Corpinnat Gran Reserva Brut Nature",
+    "Vintage": 2014.0,
+    "Price": "€ 90.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Alta Alella Mirgin Cava Gran Reserva Brut Nature",
+    "Vintage": 2020.0,
+    "Price": "€ 60.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "António Maçanita Da Pedra Se Fez Vinho Espumante Branco Extra Bruto",
+    "Vintage": "",
+    "Price": "€ 230.00 ",
+    "Category": "Red",
+    "Glass": "Bordeaux (tall)",
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
+  },
+  {
+    "Name": "Marquês de Marialva Bical & Arinto Espumante Reserva Brut",
+    "Vintage": 2019.0,
+    "Price": "€ 50.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Vértice Douro Cuvée Brut",
+    "Vintage": "",
+    "Price": "€ 50.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Vértice Douro Gouveio Brut",
+    "Vintage": "",
+    "Price": "€ 90.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Weingut Meierer OMG! Riesling Pet-Nat",
+    "Vintage": 2020.0,
+    "Price": "€ 50.00 ",
+    "Category": "White",
+    "Glass": "White wine (tapered)",
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
+  },
+  {
+    "Name": "Peter Jakob Kühn Sekt Blanc de Noirs Brut Nature",
+    "Vintage": 2019.0,
+    "Price": "€ 80.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Loimer Gumpoldskirchen Sekt Grosse Reserve Brut Nature",
+    "Vintage": "",
+    "Price": "€ 100.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Bründlmayer Sekt Rosé Brut",
+    "Vintage": "",
+    "Price": "€ 80.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Gusbourne 51 Degrees North Brut",
+    "Vintage": 2016.0,
+    "Price": "€ 360.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Gusbourne Brut Réserve",
+    "Vintage": 2020.0,
+    "Price": "€ 145.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Thomson & Scott Noughty Non-Alcoholic Sparkling Chardonnay",
+    "Vintage": "",
+    "Price": "€ 40.00 ",
+    "Category": "White",
+    "Glass": "White wine (tapered)",
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
+  },
+  {
+    "Name": "Thomson & Scott Noughty Non-Alcoholic Sparkling Rosé Tempranillo",
+    "Vintage": "",
+    "Price": "€ 40.00 ",
+    "Category": "Rosé",
+    "Glass": "White wine (tapered)",
+    "Suggested Pairings": "Dim sum, salads, light spice"
+  },
+  {
+    "Name": "Muri Fade to Black Non-Alcoholic Sparkling Red",
+    "Vintage": "",
+    "Price": "€ 50.00 ",
+    "Category": "Red",
+    "Glass": "Bordeaux (tall)",
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
+  },
+  {
+    "Name": "Muri Passing Clouds Non-Alcoholic Sparkling White",
+    "Vintage": "",
+    "Price": "€ 50.00 ",
+    "Category": "White",
+    "Glass": "White wine (tapered)",
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
+  },
+  {
+    "Name": "Jansz Premium Cuvée Brut",
+    "Vintage": "",
+    "Price": "€ 60.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "House of Arras Blanc de Blancs Brut",
+    "Vintage": "",
+    "Price": "€ 95.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Jansz Late Disgorged Vintage Cuvée Brut",
+    "Vintage": 2013.0,
+    "Price": "€ 80.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "House of Arras A by Arras Premium Cuvée Brut",
+    "Vintage": "",
+    "Price": "€ 70.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Creation Elation MCC Brut Nature",
+    "Vintage": 2016.0,
+    "Price": "€ 75.00 ",
+    "Category": "Sparkling",
+    "Glass": "Champagne flute / tulip",
+    "Suggested Pairings": "Dim sum, fried bites, shellfish, salty snacks"
+  },
+  {
+    "Name": "Testalonga El Bandito I Wish I Was a Ninja Pet-Nat",
+    "Vintage": 2022.0,
+    "Price": "€ 50.00 ",
+    "Category": "Red",
+    "Glass": "Bordeaux (tall)",
+    "Suggested Pairings": "Beef, lamb, hearty dishes"
+  },
+  {
+    "Name": "Daniel-Étienne Defaix Blanchot Chablis Grand Cru",
+    "Vintage": 2012.0,
+    "Price": "€ 250.00 ",
+    "Category": "White",
+    "Glass": "White wine (tapered)",
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
+  },
+  {
+    "Name": "Domaine de l'Enclos Mont de Milieu Chablis 1er Cru",
+    "Vintage": 2018.0,
+    "Price": "€ 135.00 ",
+    "Category": "White",
+    "Glass": "White wine (tapered)",
+    "Suggested Pairings": "Seafood, poultry, spicy dishes (off-dry whites)"
   }
 ]

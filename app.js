@@ -9,23 +9,12 @@
     "Standard white (safe default)": "🍷"
   };
 
-  const state = { wines: [], menu: [], tab: "wine", qWine: "", qDish: "", qCategory: "", qPrice: "", qDishName: "", dishPrice: "" };
+  const state = {
+    wines: [], menu: [], tab: "wine",
+    qWine: "", qDish: "", qCategory: "", qPrice: "",
+    qDishName: "", dishPrice: "", currentDish: ""
+  };
 
-  function priceToNumber(p) {
-    if (!p) return null;
-    const m = String(p).replace(/[€$,]/g,"").match(/[0-9]+(\.[0-9]+)?/);
-    return m ? parseFloat(m[0]) : null;
-  }
-
-  function inPriceBand(item, band) {
-    if (!band) return true;
-    const [min,max] = band.split("-").map(parseFloat);
-    const val = priceToNumber(item.Price);
-    if (val == null) return false;
-    return val >= min && val <= max;
-  }
-
-  // Pairing rules: keywords -> categories + rationale
   const RULES = [
     { k: ["peking duck","duck"], cats:["Light Red","Red","White","Sparkling"], why:"Fatty, sweet-savory duck loves Pinot/older Bordeaux; oaked Chardonnay or Champagne cleanses." },
     { k: ["dim sum","dumpling","har gow","siu mai"], cats:["Sparkling","White","Rosé"], why:"Sparkling & crisp whites cut salt/fat and refresh palate." },
@@ -40,20 +29,81 @@
     { k: ["dessert","custard","sweet","peach","chocolate"], cats:["Dessert/Sweet","Fortified"], why:"Match sweetness; fortified as digestif." }
   ];
 
-  function dishToCats(name) {
+  function priceToNumber(p) {
+    if (!p) return null;
+    const m = String(p).replace(/[€$,]/g,"").match(/[0-9]+(\.[0-9]+)?/);
+    return m ? parseFloat(m[0]) : null;
+  }
+  function inPriceBand(item, band) {
+    if (!band) return true;
+    const [min,max] = band.split("-").map(parseFloat);
+    const val = priceToNumber(item.Price);
+    if (val == null) return false;
+    return val >= min && val <= max;
+  }
+
+  function dishRule(name) {
     const n = String(name).toLowerCase();
-    for (const r of RULES) {
-      if (r.k.some(k => n.includes(k))) return r;
-    }
-    // Fallback by broad cues
+    for (const r of RULES) if (r.k.some(k => n.includes(k))) return r;
     if (n.includes("duck")) return RULES[0];
     if (n.includes("beef") || n.includes("lamb") || n.includes("steak")) return RULES[2];
     if (n.includes("pork")) return RULES[3];
     if (n.includes("scallop") || n.includes("prawn") || n.includes("shrimp") || n.includes("crab")) return RULES[5];
     if (n.includes("fish")) return RULES[6];
-    if (n.includes("spicy") || n.includes("chili") || n.includes("sichuan")) return RULES[7];
+    if (n.includes("spicy") || n.includes("sichuan") || n.includes("chili")) return RULES[7];
     if (n.includes("dessert")) return RULES[10];
-    return { cats: ["Sparkling","White","Light Red","Red"], why: "General pairing options; refine by preparation/sauce." };
+    return { cats:["Sparkling","White","Light Red","Red"], why:"General pairing options; refine by preparation/sauce." };
+  }
+
+  // Heuristics
+  function guessBody(w) {
+    const n = (w.Name||"").toLowerCase();
+    if (w.Category === "Light Red") return "Light";
+    if (w.Category === "Red") {
+      if (/(barolo|barbaresco|bordeaux|cabernet|syrah|shiraz|malbec|priorat)/.test(n)) return "Full"; 
+      return "Medium";
+    }
+    if (w.Category === "White") {
+      if (/(meursault|montrachet|corton|batard|chardonnay|viognier)/.test(n)) return "Full";
+      if (/(sauvignon|riesling|albarino|albariñ|grüner|gruner|muscadet|picpoul|vermentino)/.test(n)) return "Light";
+      return "Medium";
+    }
+    if (w.Category === "Sparkling") return "Light";
+    if (w.Category === "Dessert/Sweet" || w.Category === "Fortified") return "Full";
+    return "Medium";
+  }
+  function guessSweet(w) {
+    const n = (w.Name||"").toLowerCase();
+    if (w.Category === "Dessert/Sweet" || /(sauternes|tokaji|ice|eiswein|vendange|trockenbeerenauslese|beerenauslese|tba)/.test(n)) return "Sweet";
+    if (/(kabinett|spätlese|spaetlese|off[-\s]?dry|moelleux|demi[-\s]?sec)/.test(n)) return "Off-dry";
+    if (w.Category === "Sparkling" && /(brut|extra brut|pas dosé|dosage zero|zero dos)/.test(n)) return "Dry";
+    return "Dry";
+  }
+  function guessOak(w) {
+    const n = (w.Name||"").toLowerCase();
+    if (/(meursault|montrachet|corton|batard|puligny|chassagne|oak|barrel|toasted)/.test(n)) return "Toasty/oaky";
+    if (/(chardonnay)/.test(n)) return "Some oak";
+    if (/(sauvignon|riesling|grüner|gruner|albarino|muscadet|pinot grigio)/.test(n)) return "Unoaked";
+    return "";
+  }
+  function guessBubbles(w) { return w.Category === "Sparkling" ? "Sparkling" : "Still"; }
+
+  function scoreWine(w, ruleCats, prefs) {
+    let score = 0, reasons = [];
+    if (ruleCats.includes(w.Category)) { score += 30; reasons.push("Matches dish style"); } else { score -= 10; }
+    if (prefs.style && w.Category === prefs.style) { score += 25; reasons.push("Guest preferred style"); }
+    if (prefs.budget && inPriceBand(w, prefs.budget)) { score += 15; reasons.push("Within budget"); }
+    const b = guessBody(w); if (prefs.body && b === prefs.body) { score += 10; reasons.push(`${b} body`); }
+    const s = guessSweet(w); if (prefs.sweet && s === prefs.sweet) { score += 10; reasons.push(`${s.toLowerCase()}`); } if (!prefs.sweet && s === "Dry") { score += 5; }
+    const o = guessOak(w); if (prefs.oak && o && o === prefs.oak) { score += 6; reasons.push(o); }
+    const bub = guessBubbles(w); if (prefs.bubbles && (prefs.bubbles === bub || prefs.bubbles === "Either")) { score += 8; reasons.push(bub); }
+    return { score, reasons: reasons.slice(0,3) };
+  }
+  function byScoreDesc(a,b){ return b._score - a._score; }
+  function byPriceAsc(a,b){
+    const pa = (String(a.Price).replace(/[€$,]/g,"").match(/[0-9]+(\.[0-9]+)?/)||[0])[0];
+    const pb = (String(b.Price).replace(/[€$,]/g,"").match(/[0-9]+(\.[0-9]+)?/)||[0])[0];
+    return parseFloat(pa||0) - parseFloat(pb||0);
   }
 
   function renderWineGrid(list, whyText) {
@@ -63,6 +113,7 @@
     grid.innerHTML = list.slice(0, 300).map(w => {
       const glass = GLASS_ICON[w.Glass] || "🍷";
       const safe = JSON.stringify(w).replace(/</g,"&lt;").replace(/>/g,"&gt;");
+      const why = (w._why || []).join(" • ");
       return `
         <div class="card">
           <div class="title">${w.Name}${w.Vintage ? " " + w.Vintage : ""}</div>
@@ -74,15 +125,9 @@
             <div class="price">${w.Price || ""}</div>
             <button class="btn" onclick='copyRec(${safe})'>Copy</button>
           </div>
-          <div class="pair">${w["Suggested Pairings"] || ""}</div>
+          <div class="pair">${why ? why : (w["Suggested Pairings"] || "")}</div>
         </div>`;
     }).join("");
-  }
-
-  function byPriceAsc(a,b) {
-    const pa = (String(a.Price).replace(/[€$,]/g,"").match(/[0-9]+(\.[0-9]+)?/)||[0])[0];
-    const pb = (String(b.Price).replace(/[€$,]/g,"").match(/[0-9]+(\.[0-9]+)?/)||[0])[0];
-    return parseFloat(pa||0) - parseFloat(pb||0);
   }
 
   function showWineTab() {
@@ -93,7 +138,6 @@
     document.getElementById("tabDish").classList.remove("active");
     renderWine();
   }
-
   function showDishTab() {
     document.getElementById("controlsWine").style.display = "none";
     document.getElementById("controlsDish").style.display = "";
@@ -101,11 +145,6 @@
     document.getElementById("tabDish").classList.add("active");
     document.getElementById("tabWine").classList.remove("active");
     renderDishList();
-  }
-
-  function matchesDishFilter(item, q) {
-    if (!q) return true;
-    return (item.Name + " " + (item.Vintage||"")).toLowerCase().includes(q.toLowerCase());
   }
 
   function renderWine() {
@@ -119,26 +158,48 @@
 
   function renderDishList() {
     const cont = document.getElementById("dishList");
-    const q = state.qDishName.toLowerCase();
-    const dishes = state.menu.map(d => ({name: d.name || d.title || d.dish || d.Name || "", id: d.id || d.slug || (d.name||"").toLowerCase().replace(/\\s+/g,'_'), cat: d.category || d.section || ""}))
+    const q = (state.qDishName||"").toLowerCase();
+    const dishes = state.menu.map(d => ({name: d.name || d.title || d.dish || d.Name || "", id: d.id || d.slug || (d.name||"").toLowerCase().replace(/\s+/g,'_'), cat: d.category || d.section || ""}))
       .filter(d => d.name).filter(d => !q || d.name.toLowerCase().includes(q));
     cont.innerHTML = dishes.map(d => `<div class="item" data-id="${d.id}"><div class="name">${d.name}</div><div class="tags">${d.cat||""}</div></div>`).join("");
-    // Wire clicks
     Array.from(cont.querySelectorAll(".item")).forEach(el => {
-      el.onclick = () => { selectDish(el.querySelector(".name").textContent); };
+      el.onclick = () => openModal(el.querySelector(".name").textContent);
     });
     document.getElementById("badges").innerHTML = `<span class="badge">Dishes: ${dishes.length}</span>`;
   }
 
-  function selectDish(dishName) {
-    const rule = dishToCats(dishName);
-    let list = state.wines
-      .filter(w => rule.cats.includes(w.Category))
-      .filter(w => inPriceBand(w, state.dishPrice))
-      .sort(byPriceAsc);
-    renderWineGrid(list, rule.why || "");
+  // Modal control
+  function openModal(dishName) {
+    state.currentDish = dishName;
+    document.getElementById("modalTitle").textContent = `Preferences for: ${dishName}`;
+    document.getElementById("modal").style.display = "flex";
+  }
+  function closeModal(){ document.getElementById("modal").style.display = "none"; }
+
+  function applyQuiz() {
+    const prefs = {
+      style: val("#mStyle"),
+      budget: val("#mBudget"),
+      body: val("#mBody"),
+      sweet: val("#mSweet") || "Dry",
+      oak: val("#mOak"),
+      bubbles: val("#mBubbles")
+    };
+    const rule = dishRule(state.currentDish);
+    let list = state.wines.slice().map(w => {
+      const {score, reasons} = scoreWine(w, rule.cats, prefs);
+      return Object.assign({}, w, {_score: score, _why: reasons});
+    }).filter(w => w._score > 10);
+
+    list.sort(byScoreDesc);
+    const top = list.slice(0, 30);
+    top.sort(byPriceAsc);
+    renderWineGrid(top, rule.why);
+    closeModal();
     window.scrollTo({top: 0, behavior: 'smooth'});
   }
+
+  function val(sel){ const el = document.querySelector(sel); return el ? el.value : ""; }
 
   function showNotice(msg) {
     const n = document.getElementById('notice');
@@ -154,17 +215,18 @@
       ]);
       state.wines = w;
       state.menu = Array.isArray(m) ? m : (m.items || m.menu || []);
-      // Wire tabs
       document.getElementById("tabWine").onclick = showWineTab;
       document.getElementById("tabDish").onclick = showDishTab;
-      // Wire controls
       document.getElementById("qWine").addEventListener("input", e => { state.qWine = e.target.value; renderWine(); });
       document.getElementById("qDish").addEventListener("input", e => { state.qDish = e.target.value; renderWine(); });
       document.getElementById("qCategory").addEventListener("change", e => { state.qCategory = e.target.value; renderWine(); });
       document.getElementById("qPrice").addEventListener("change", e => { state.qPrice = e.target.value; renderWine(); });
       document.getElementById("qDishName").addEventListener("input", e => { state.qDishName = e.target.value; renderDishList(); });
       document.getElementById("dishPrice").addEventListener("change", e => { state.dishPrice = e.target.value; });
-      // Initial render
+
+      document.getElementById("mCancel").onclick = closeModal;
+      document.getElementById("mApply").onclick = applyQuiz;
+
       renderWine();
     } catch (e) {
       console.error(e);

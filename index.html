@@ -7,7 +7,7 @@
   <link rel="manifest" href="manifest.json" />
   <link rel="apple-touch-icon" href="icon-192.png" />
   <meta name="theme-color" content="#0b0b0c" />
-  <link rel="stylesheet" href="styles.css?v=20250907215428" />
+  <link rel="stylesheet" href="styles.css?v=20250908162752" />
 </head>
 <body>
   <header>
@@ -61,7 +61,78 @@
     <div class="footer">Install to iPad: Share → Add to Home Screen. Works offline.</div>
   </main>
 
-  <script src="app.js?v=20250907215428"></script>
+  <!-- Modal -->
+  <div id="modal" class="modal-backdrop">
+    <div class="modal">
+      <h2 id="modalTitle">Choose guest preferences</h2>
+      <div class="rows">
+        <div class="row">
+          <label>Wine style</label>
+          <select id="mStyle">
+            <option value="">No preference</option>
+            <option>Sparkling</option>
+            <option>White</option>
+            <option>Rosé</option>
+            <option>Light Red</option>
+            <option>Red</option>
+            <option>Dessert/Sweet</option>
+            <option>Fortified</option>
+          </select>
+        </div>
+        <div class="row">
+          <label>Budget</label>
+          <select id="mBudget">
+            <option value="">Any</option>
+            <option value="0-99">&lt; €100</option>
+            <option value="100-299">€100–€299</option>
+            <option value="300-699">€300–€699</option>
+            <option value="700-1499">€700–€1,499</option>
+            <option value="1500-99999">€1,500+</option>
+          </select>
+        </div>
+        <div class="row">
+          <label>Intensity</label>
+          <select id="mBody">
+            <option value="">Any</option>
+            <option>Light</option>
+            <option>Medium</option>
+            <option>Full</option>
+          </select>
+        </div>
+        <div class="row">
+          <label>Sweetness</label>
+          <select id="mSweet">
+            <option value="">Dry</option>
+            <option>Off-dry</option>
+            <option>Sweet</option>
+          </select>
+        </div>
+        <div class="row">
+          <label>Oak preference</label>
+          <select id="mOak">
+            <option value="">Any</option>
+            <option>Unoaked</option>
+            <option>Some oak</option>
+            <option>Toasty/oaky</option>
+          </select>
+        </div>
+        <div class="row">
+          <label>Bubbles</label>
+          <select id="mBubbles">
+            <option value="">Either</option>
+            <option>Still</option>
+            <option>Sparkling</option>
+          </select>
+        </div>
+      </div>
+      <div class="actions">
+        <button id="mCancel" class="btn link">Cancel</button>
+        <button id="mApply" class="btn">Show Matches</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js?v=20250908162752"></script>
   <script>if ('serviceWorker' in navigator && location.protocol.startsWith('http')) { navigator.serviceWorker.register('./service-worker.js'); }</script>
 </body>
 </html>
