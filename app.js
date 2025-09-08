@@ -101,9 +101,20 @@
   function renderDishList() {
     const cont = document.getElementById("dishList");
     const q = (state.qDishName||"").toLowerCase();
-    const dishes = (state.menu||[]).map(d => ({name: d.name || d.title || d.dish || d.Name || "", id: d.id || d.slug || (d.name||"").toLowerCase().replace(/\s+/g,'_'), cat: d.category || d.section || ""}))
+    const dishesRaw = (state.menu||[]).map(d => ({name: d.name || d.title || d.dish || d.Name || "", id: d.id || d.slug || (d.name||"").toLowerCase().replace(/\s+/g,'_'), cat: d.category || d.section || ""}))
       .filter(d => d.name).filter(d => !q || d.name.toLowerCase().includes(q));
-    cont.innerHTML = dishes.map(d => `<div class="item" data-id="${d.id}"><div class="name">${d.name}</div><div class="tags">${d.cat||""}</div></div>`).join("");
+
+    // Assign bento sizes (hero for signatures, otherwise pattern)
+    const dishes = dishesRaw.map((d, i) => {
+      const n = d.name.toLowerCase();
+      let cls = "item--sm";
+      if (/duck|peking|wagyu|signature|chef/.test(n)) cls = "item--xl";
+      else if (/dim sum|lobster|crab|truffle|king|oyster|scallop/.test(n)) cls = "item--lg";
+      else if (i % 7 === 0) cls = "item--md";
+      return {...d, size: cls};
+    });
+
+    cont.innerHTML = dishes.map(d => `<div class="item squircle ${d.size}" data-id="${d.id}"><div class="name">${d.name}</div><div class="tags">${d.cat||""}</div></div>`).join("");
     Array.from(cont.querySelectorAll(".item")).forEach(el => {
       el.onclick = () => openModal(el.querySelector(".name").textContent);
     });
@@ -169,7 +180,7 @@
     list.sort(byScoreDesc);
     const top = list.slice(0, 40);
     top.sort(byPriceAsc);
-    // Switch modal to results step; keep background blurred
+    // Switch modal to results step
     document.getElementById("modalSubtitle").style.display = "none";
     document.getElementById("stepPrefs").style.display = "none";
     document.getElementById("stepResults").style.display = "";
@@ -193,7 +204,7 @@
       document.getElementById("mCancel").onclick = closeModal;
       document.getElementById("mApply").onclick = applyQuiz;
       document.getElementById("mBack").onclick = () => {
-        // back to preferences, still blurred and modal open
+        // back to preferences
         document.getElementById("modalSubtitle").style.display = "";
         document.getElementById("stepPrefs").style.display = "";
         document.getElementById("stepResults").style.display = "none";
