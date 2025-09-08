@@ -1,10 +1,10 @@
 {
-  "name": "Shang Shi • FOH Pairing (Light)",
+  "name": "Shang Shi • FOH Pairing (Ivory & Sage)",
   "short_name": "FOH Pairing",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#f7f7fb",
-  "theme_color": "#f7f7fb",
+  "background_color": "#FAFBF7",
+  "theme_color": "#FAFBF7",
   "icons": [
     {
       "src": "icon-192.png",
